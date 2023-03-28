@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div className="bg-black h-40 w-40 mx-auto"></div>
+    <div className="bg-black h-[28rem] w-[42rem] mx-auto rounded"></div>
   </div>
 </template>
 
