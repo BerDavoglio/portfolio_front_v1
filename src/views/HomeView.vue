@@ -1,19 +1,22 @@
 <template>
   <div class="home">
-    <divulgacao-component></divulgacao-component>
-    <sobre-component></sobre-component>
+    <share-component></share-component>
+    <about-component></about-component>
+    <portfolio-component></portfolio-component>
   </div>
 </template>
 
 <script>
-import DivulgacaoComponent from '../components/home/DivulgacaoComponent.vue';
-import SobreComponent from '../components/home/SobreComponent.vue';
+import ShareComponent from '../components/home/ShareComponent.vue';
+import AboutComponent from '../components/home/AboutComponent.vue';
+import PortfolioComponent from '../components/home/PortfolioComponent.vue';
 
 export default {
   name: 'HomeView',
   components: {
-    DivulgacaoComponent,
-    SobreComponent,
+    ShareComponent,
+    AboutComponent,
+    PortfolioComponent,
   },
 };
 </script>
