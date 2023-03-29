@@ -3,16 +3,19 @@
     <header-component></header-component>
     <div className="h-8"></div>
     <router-view />
+    <footer-component></footer-component>
   </div>
 </template>
 
 <script>
 import HeaderComponent from './components/headers/HeaderComponent.vue';
+import FooterComponent from './components/footers/FooterComponent.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
+    FooterComponent,
   },
 };
 </script>
