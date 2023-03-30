@@ -5,7 +5,7 @@
         <SwiperSlide>
           <img src="../assets/images/ber_foto_1.jpeg" alt="" className="
                 object-cover
-                max-h-[22rem] w-[60%]
+                h-[22rem] w-[60%]
                 m-auto rounded-3xl">
         </SwiperSlide>
         <SwiperSlide>
@@ -28,7 +28,7 @@
         </SwiperSlide>
       </Swiper>
     </div>
-    <div className="mx-[19rem]">
+    <div className="mx-[20%]">
       <div className="text-3xl font-bold text-left">Quem é?</div>
       <div className="text-justify">Bernardo Davoglio, atualmente estudante de Engenharia Química
         pela Universidade Federal do Paraná, é um desenvolvedor de Softwares, tanto Front-End
