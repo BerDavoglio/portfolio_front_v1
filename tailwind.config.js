@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         js_bg: "url('./images/js_bg.jpg')",
-        ber: "url('./images/ber_foto.jpeg')",
+        ber: "url('./images/ber_foto_1.jpeg')",
       },
     },
   },
