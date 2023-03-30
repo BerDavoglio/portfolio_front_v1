@@ -1,6 +1,8 @@
 <template>
-  <div class="portfolio">
-    <div className="teste h-32 pt-12 text-2xl text-white cursor-pointer">
+  <div class="portfolio mt-8">
+    <!-- eslint-disable-next-line vuejs-accessibility/click-events-have-key-events -->
+    <div className="teste h-32 pt-12 text-2xl text-white cursor-pointer"
+    @click="goPort">
       About my Portfolio? Click here and discover more about me!
     </div>
   </div>
@@ -10,6 +12,11 @@
 export default {
   name: 'PortfolioComponent',
   components: {
+  },
+  methods: {
+    goPort() {
+      this.$router.push({ name: 'portfolio' });
+    },
   },
 };
 </script>
