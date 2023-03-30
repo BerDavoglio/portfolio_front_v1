@@ -1,7 +1,7 @@
 <template>
   <div className="p-4">
     <div className="mb-2 font-bold text-xl">Tecnologias Utilizadas:</div>
-    <Swiper :slides-per-view="10">
+    <Swiper :slides-per-view="slides">
       <SwiperSlide>
         <v-icon name="io-logo-javascript" scale="4"></v-icon>
       </SwiperSlide>
@@ -62,7 +62,34 @@ export default {
     'v-icon': OhVueIcon,
   },
   data() {
-    return {};
+    return {
+      slides: 10,
+      windowWidth: window.innerWidth,
+    };
+  },
+  methods: {
+    onResize() {
+      this.windowWidth = window.innerWidth;
+    },
+  },
+  watch: {
+    windowWidth(newWidth) {
+      if (newWidth > 1200) {
+        this.slides = 10;
+      } else if (newWidth < 830) {
+        this.slides = 3;
+      } else {
+        this.slides = 7;
+      }
+    },
+  },
+  mounted() {
+    this.$nextTick(() => {
+      window.addEventListener('resize', this.onResize);
+    });
+  },
+  beforeUnmount() {
+    window.removeEventListener('resize', this.onResize);
   },
 };
 </script>

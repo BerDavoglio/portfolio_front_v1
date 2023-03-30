@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio">
     <!-- eslint-disable-next-line vuejs-accessibility/click-events-have-key-events -->
-    <div className="teste h-32 pt-12 text-2xl text-white cursor-pointer"
+    <div className="teste py-12 px-4 text-2xl text-white cursor-pointer"
     @click="goPort">
       About my Portfolio? Click here and discover more about me!
     </div>
