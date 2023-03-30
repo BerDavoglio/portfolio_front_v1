@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about" className="mb-8">
     <div className="h-96">
       <Swiper>
         <SwiperSlide>
@@ -28,12 +28,19 @@
         </SwiperSlide>
       </Swiper>
     </div>
-    <div className="mx-[20%]">
+    <div className="mx-[20%] my-2">
       <div className="text-3xl font-bold text-left">Quem é?</div>
       <div className="text-justify">Bernardo Davoglio, atualmente estudante de Engenharia Química
         pela Universidade Federal do Paraná, é um desenvolvedor de Softwares, tanto Front-End
         quanto Back-End, com um vasto conhecimento em diversas linguagens de programação, como
         JavaScript e PHP.
+      </div>
+    </div>
+    <div className="mx-[20%]">
+      <div className="text-3xl font-bold text-left">Quais tecnologias pode trabalhar?</div>
+      <div className="text-justify">
+        Por mais que tenha feito diversos cursos citados na página inicial, podemos considerar
+        que as principais tecnologias utilizadas por Bernardo sejam JavaScript e PHP.
       </div>
     </div>
   </div>

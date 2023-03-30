@@ -1,8 +1,42 @@
 import { createApp } from 'vue';
+import { OhVueIcon, addIcons } from 'oh-vue-icons';
+import {
+  IoLogoJavascript,
+  CoPhp,
+  SiDart,
+  CoFlutter,
+  SiCplusplus,
+  SiCsharp,
+  CoLaravel,
+  LaNodeJs,
+  CoVueJs,
+  CoReact,
+  LaHtml5,
+  LaCss3Alt,
+  SiPowerbi,
+  SiArduino,
+} from 'oh-vue-icons/icons';
 import App from './App.vue';
 import router from './router';
 import store from './store';
 import './assets/tailwind.css';
 
-createApp(App).use(store).use(router)
+addIcons(
+  IoLogoJavascript,
+  CoPhp,
+  SiDart,
+  CoFlutter,
+  SiCplusplus,
+  SiCsharp,
+  CoLaravel,
+  LaNodeJs,
+  CoVueJs,
+  CoReact,
+  LaHtml5,
+  LaCss3Alt,
+  SiPowerbi,
+  SiArduino,
+);
+
+createApp(App).component('v-icon', OhVueIcon).use(store).use(router)
   .mount('#app');

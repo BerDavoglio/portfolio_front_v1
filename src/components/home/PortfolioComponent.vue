@@ -1,5 +1,5 @@
 <template>
-  <div class="portfolio mt-8">
+  <div class="portfolio">
     <!-- eslint-disable-next-line vuejs-accessibility/click-events-have-key-events -->
     <div className="teste h-32 pt-12 text-2xl text-white cursor-pointer"
     @click="goPort">

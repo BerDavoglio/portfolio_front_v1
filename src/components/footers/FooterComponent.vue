@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-black w-full h-[24rem] pt-10 grid grid-cols-4 text-white mt-8">
+    <div class="bg-black w-full h-[24rem] pt-10 grid grid-cols-4 text-white">
       <part-one></part-one>
       <part-two></part-two>
       <part-three></part-three>
