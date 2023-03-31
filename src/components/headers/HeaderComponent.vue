@@ -63,12 +63,6 @@ export default {
     };
   },
   methods: {
-    isMobile() {
-      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        return true;
-      }
-      return false;
-    },
     onResize() {
       this.windowWidth = window.innerWidth;
     },
@@ -87,7 +81,7 @@ export default {
   },
   watch: {
     windowWidth(newWidth) {
-      if (newWidth < 768 || this.isMobile()) {
+      if (newWidth < 768) {
         this.isCell = true;
       } else {
         this.isCell = false;
@@ -95,7 +89,7 @@ export default {
     },
   },
   beforeMount() {
-    if (window.innerWidth < 768 || this.isMobile()) {
+    if (window.innerWidth < 768) {
       this.isCell = true;
     } else {
       this.isCell = false;
