@@ -8,44 +8,40 @@
       </div>
       <div className="grid grid-cols-4 m-auto h-12 cursor-pointer" v-if="!isCell">
         <div className="
-            w-24
-            border-r-2
-            hover:bg-gray-300
-            active:bg-gray-400
-            active:text-white
-            py-4
-            border-l-2"
-            @click="goHome">
+                    w-24
+                    border-r-2
+                    hover:bg-gray-300
+                    active:bg-gray-400
+                    active:text-white
+                    py-4
+                    border-l-2" @click="goHome">
           Home
         </div>
         <div className="
-            w-24
-            border-r-2
-            hover:bg-gray-300
-            active:bg-gray-400
-            active:text-white
-            py-4"
-            @click="goAbout">
+                    w-24
+                    border-r-2
+                    hover:bg-gray-300
+                    active:bg-gray-400
+                    active:text-white
+                    py-4" @click="goAbout">
           About
         </div>
         <div className="
-            w-24
-            border-r-2
-            hover:bg-gray-300
-            active:bg-gray-400
-            active:text-white
-            py-4"
-            @click="goPort">
+                    w-24
+                    border-r-2
+                    hover:bg-gray-300
+                    active:bg-gray-400
+                    active:text-white
+                    py-4" @click="goPort">
           Portfolio
         </div>
         <div className="
-            w-24
-            border-r-2
-            hover:bg-gray-300
-            active:bg-gray-400
-            active:text-white
-            py-4"
-            @click="goCont">
+                    w-24
+                    border-r-2
+                    hover:bg-gray-300
+                    active:bg-gray-400
+                    active:text-white
+                    py-4" @click="goCont">
           Contact
         </div>
       </div>
@@ -67,6 +63,12 @@ export default {
     };
   },
   methods: {
+    isMobile() {
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        return true;
+      }
+      return false;
+    },
     onResize() {
       this.windowWidth = window.innerWidth;
     },
@@ -85,12 +87,19 @@ export default {
   },
   watch: {
     windowWidth(newWidth) {
-      if (newWidth < 768) {
+      if (newWidth < 768 || this.isMobile()) {
         this.isCell = true;
       } else {
         this.isCell = false;
       }
     },
+  },
+  beforeMount() {
+    if (window.innerWidth < 768 || this.isMobile()) {
+      this.isCell = true;
+    } else {
+      this.isCell = false;
+    }
   },
   mounted() {
     this.$nextTick(() => {

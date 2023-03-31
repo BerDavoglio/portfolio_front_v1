@@ -83,6 +83,15 @@ export default {
       }
     },
   },
+  beforeMount() {
+    if (window.innerWidth > 1200) {
+      this.slides = 10;
+    } else if (window.innerWidth < 830) {
+      this.slides = 3;
+    } else {
+      this.slides = 7;
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       window.addEventListener('resize', this.onResize);

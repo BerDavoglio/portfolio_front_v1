@@ -4,20 +4,20 @@
   <div class="about">
     <div :className=classeFoto>
       <div v-if="haveFoto" className="
-              bg-ber bg-cover bg-center bg-no-repeat
-              h-[85%] w-[60%]
-              my-10 mx-auto
-              rounded-3xl
-              ring ring-pink-500 ring-offset-4 ring-offset-cyan-500">
+                bg-ber bg-cover bg-center bg-no-repeat
+                h-[85%] w-[60%]
+                my-10 mx-auto
+                rounded-3xl
+                ring ring-pink-500 ring-offset-4 ring-offset-cyan-500">
       </div>
       <div>
         <p className="
-                text-white text-justify
-                w-[60%] max-h-[32rem]
-                rounded-md
-                mt-10 mx-auto p-4
-                bg-gray-900/75
-                overflow-y-scroll scrollbar">
+                  text-white text-justify
+                  w-[60%] max-h-[32rem]
+                  rounded-md
+                  mt-10 mx-auto p-4
+                  bg-gray-900/75
+                  overflow-y-scroll scrollbar">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet, justo eget pretium volutpat, dolor
           erat congue quam, sit amet sollicitudin lacus mi id neque. Nam eu auctor purus, sed ornare ex. Aliquam sagittis
           dignissim sem vitae tincidunt. Quisque sollicitudin ultrices augue, sit amet elementum ligula sodales quis.
@@ -57,8 +57,8 @@
           facilisis sodales.
         </p>
         <div className="ml-[20%]
-                w-32 bg-red-700 text-white p-2 mt-4 rounded-md hover:bg-red-800
-                active:bg-red-900 cursor-pointer" @click="goAbout">Read More</div>
+                  w-32 bg-red-700 text-white p-2 mt-4 rounded-md hover:bg-red-800
+                  active:bg-red-900 cursor-pointer" @click="goAbout">Read More</div>
       </div>
     </div>
   </div>
@@ -93,6 +93,15 @@ export default {
         this.classeFoto = 'grid grid-cols-2 bg-js_bg bg-center bg-gray-500 bg-no-repeat w-full h-[42rem]';
       }
     },
+  },
+  beforeMount() {
+    if (window.innerWidth < 768) {
+      this.haveFoto = false;
+      this.classeFoto = 'grid grid-cols-1 bg-js_bg bg-center bg-gray-500 bg-no-repeat w-full h-[42rem]';
+    } else {
+      this.haveFoto = true;
+      this.classeFoto = 'grid grid-cols-2 bg-js_bg bg-center bg-gray-500 bg-no-repeat w-full h-[42rem]';
+    }
   },
   mounted() {
     this.$nextTick(() => {
