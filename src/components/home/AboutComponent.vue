@@ -13,7 +13,7 @@
       <div>
         <p className="
                   text-white text-justify
-                  w-[60%] max-h-[32rem]
+                  w-[75%] max-h-[32rem]
                   rounded-md
                   mt-10 mx-auto p-4
                   bg-gray-900/75

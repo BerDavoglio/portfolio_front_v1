@@ -15,6 +15,7 @@ import {
   LaCss3Alt,
   SiPowerbi,
   SiArduino,
+  CoLinkedinIn,
 } from 'oh-vue-icons/icons';
 import App from './App.vue';
 import router from './router';
@@ -36,6 +37,7 @@ addIcons(
   LaCss3Alt,
   SiPowerbi,
   SiArduino,
+  CoLinkedinIn,
 );
 
 createApp(App).component('v-icon', OhVueIcon).use(store).use(router)

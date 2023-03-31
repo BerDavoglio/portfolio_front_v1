@@ -52,14 +52,11 @@
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper.min.css';
 
-import OhVueIcon from 'oh-vue-icons';
-
 export default {
   name: 'TecnologiesComponent',
   components: {
     Swiper,
     SwiperSlide,
-    'v-icon': OhVueIcon,
   },
   data() {
     return {
