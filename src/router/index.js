@@ -32,4 +32,9 @@ const router = createRouter({
   routes,
 });
 
+router.beforeEach((to, from, next) => {
+  document.title = `BerDavoglio | ${to.name.charAt(0).toUpperCase() + to.name.slice(1)}`;
+  next();
+});
+
 export default router;
