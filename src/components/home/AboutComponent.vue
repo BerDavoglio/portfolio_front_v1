@@ -56,7 +56,7 @@
           auctor. Suspendisse bibendum vehicula diam, sit amet venenatis purus fringilla ac. Sed placerat libero non felis
           facilisis sodales.
         </p>
-        <div className="ml-[20%]
+        <div className="ml-[12.5%]
                   w-32 bg-red-700 text-white p-2 mt-4 rounded-md hover:bg-red-800
                   active:bg-red-900 cursor-pointer" @click="goAbout">Read More</div>
       </div>
