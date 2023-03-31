@@ -7,7 +7,7 @@
       <part-four></part-four>
     </div>
   </div>
-  <div class="bg-black w-full h-12 text-white">
+  <div class="bg-black w-full h-12 text-white p-4">
     <div>© Todos os direitos reservados, Bernardo Davoglio, 2022.</div>
   </div>
 </template>

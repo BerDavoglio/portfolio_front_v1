@@ -1,20 +1,18 @@
+<!-- eslint-disable vuejs-accessibility/click-events-have-key-events -->
 <template>
   <div>
     <div class="bg-white h-2 w-[85%] mx-auto my-3 rounded-md"></div>
-    <div class="text-2xl font-bold mb-10">Redes Sociais</div>
+    <div class="text-2xl font-bold">Redes Sociais</div>
     <div class="grid grid-cols-1 mx-6">
-      <b-button size="lg" class="mb-2 border-0">
-        <b-icon-facebook aria-hidden="true"></b-icon-facebook> Facebook
-      </b-button>
-      <b-button size="lg" class="mb-2 border-0">
-        <b-icon-instagram aria-hidden="true"></b-icon-instagram> Instagram
-      </b-button>
-      <b-button size="lg" class="mb-2 border-0">
-        <b-icon-twitter aria-hidden="true"></b-icon-twitter> Twitter
-      </b-button>
-      <b-button size="lg" class="mb-2 border-0">
-        <b-icon-linkedin aria-hidden="true"></b-icon-linkedin> Linkedin
-      </b-button>
+      <div className="cursor-pointer mt-2" @click="goToLinkedin">
+        <v-icon name="co-linkedin-in"></v-icon> Linkedin
+      </div>
+      <div className="cursor-pointer mt-2" @click="goToGithub">
+        <v-icon name="bi-github"></v-icon> GitHub
+      </div>
+      <div className="cursor-pointer mt-2" @click="goToInstagram">
+        <v-icon name="bi-instagram"></v-icon> Instagram
+      </div>
     </div>
   </div>
 </template>
@@ -22,5 +20,16 @@
 <script>
 export default {
   name: 'PartFour',
+  methods: {
+    goToLinkedin() {
+      window.open('https://www.linkedin.com/in/bernardo-davoglio-487649214/', '_blank');
+    },
+    goToGithub() {
+      window.open('https://github.com/BerDavoglio', '_blank');
+    },
+    goToInstagram() {
+      window.open('https://www.instagram.com/berdavoglio_/', '_blank');
+    },
+  },
 };
 </script>

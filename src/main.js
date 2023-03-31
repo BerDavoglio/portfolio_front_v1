@@ -16,6 +16,9 @@ import {
   SiPowerbi,
   SiArduino,
   CoLinkedinIn,
+  BiFacebook,
+  BiInstagram,
+  BiGithub,
 } from 'oh-vue-icons/icons';
 import App from './App.vue';
 import router from './router';
@@ -38,6 +41,9 @@ addIcons(
   SiPowerbi,
   SiArduino,
   CoLinkedinIn,
+  BiFacebook,
+  BiInstagram,
+  BiGithub,
 );
 
 createApp(App).component('v-icon', OhVueIcon).use(store).use(router)
