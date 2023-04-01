@@ -68,26 +68,22 @@ export default {
     onResize() {
       this.windowWidth = window.innerWidth;
     },
+    verifyResize(i) {
+      if (i > 1200) {
+        return 10;
+      } if (i < 830) {
+        return 3;
+      }
+      return 7;
+    },
   },
   watch: {
     windowWidth(newWidth) {
-      if (newWidth > 1200) {
-        this.slides = 10;
-      } else if (newWidth < 830) {
-        this.slides = 3;
-      } else {
-        this.slides = 7;
-      }
+      this.slides = this.verifyResize(newWidth);
     },
   },
   beforeMount() {
-    if (window.innerWidth > 1200) {
-      this.slides = 10;
-    } else if (window.innerWidth < 830) {
-      this.slides = 3;
-    } else {
-      this.slides = 7;
-    }
+    this.slides = this.verifyResize(window.innerWidth);
   },
   mounted() {
     this.$nextTick(() => {

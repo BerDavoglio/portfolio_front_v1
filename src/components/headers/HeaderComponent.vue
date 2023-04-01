@@ -1,3 +1,4 @@
+<!-- eslint-disable max-len -->
 <!-- eslint-disable vuejs-accessibility/click-events-have-key-events -->
 <template>
   <div>
@@ -6,42 +7,43 @@
         <p className="text-2xl">Bernardo Davoglio</p>
         <p className="mb-2">Programador</p>
       </div>
-      <div className="grid grid-cols-4 m-auto h-12 cursor-pointer" v-if="!isCell">
+      <div :className="['grid m-auto cursor-pointer ' + (isCell ? 'grid-cols-2' : 'grid-cols-4')]">
         <div className="
-                    w-24
-                    border-r-2
-                    hover:bg-gray-300
-                    active:bg-gray-400
-                    active:text-white
-                    py-4
-                    border-l-2" @click="goHome">
+                      w-24
+                      border-r-2
+                      hover:bg-gray-300
+                      active:bg-gray-400
+                      active:text-white
+                      py-4
+                      border-l-2" @click="goPage('home')">
           Home
         </div>
         <div className="
-                    w-24
-                    border-r-2
-                    hover:bg-gray-300
-                    active:bg-gray-400
-                    active:text-white
-                    py-4" @click="goAbout">
+                      w-24
+                      border-r-2
+                      hover:bg-gray-300
+                      active:bg-gray-400
+                      active:text-white
+                      py-4" @click="goPage('about')">
           About
         </div>
         <div className="
-                    w-24
-                    border-r-2
-                    hover:bg-gray-300
-                    active:bg-gray-400
-                    active:text-white
-                    py-4" @click="goPort">
+                      w-24
+                      border-r-2
+                      hover:bg-gray-300
+                      active:bg-gray-400
+                      active:text-white
+                      py-4
+                      border-l-2" @click="goPage('portfolio')">
           Portfolio
         </div>
         <div className="
-                    w-24
-                    border-r-2
-                    hover:bg-gray-300
-                    active:bg-gray-400
-                    active:text-white
-                    py-4" @click="goCont">
+                      w-24
+                      border-r-2
+                      hover:bg-gray-300
+                      active:bg-gray-400
+                      active:text-white
+                      py-4" @click="goPage('contact')">
           Contact
         </div>
       </div>
@@ -66,34 +68,22 @@ export default {
     onResize() {
       this.windowWidth = window.innerWidth;
     },
-    goHome() {
-      this.$router.push({ name: 'home' });
+    verifyResize(i) {
+      if (i < 768) {
+        return true;
+      } return false;
     },
-    goAbout() {
-      this.$router.push({ name: 'about' });
-    },
-    goPort() {
-      this.$router.push({ name: 'portfolio' });
-    },
-    goCont() {
-      this.$router.push({ name: 'contact' });
+    goPage(route) {
+      this.$router.push({ name: route });
     },
   },
   watch: {
     windowWidth(newWidth) {
-      if (newWidth < 768) {
-        this.isCell = true;
-      } else {
-        this.isCell = false;
-      }
+      this.isCell = this.verifyResize(newWidth);
     },
   },
   beforeMount() {
-    if (window.innerWidth < 768) {
-      this.isCell = true;
-    } else {
-      this.isCell = false;
-    }
+    this.isCell = this.verifyResize(window.innerWidth);
   },
   mounted() {
     this.$nextTick(() => {

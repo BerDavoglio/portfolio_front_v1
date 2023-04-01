@@ -2,7 +2,7 @@
   <div class="portfolio">
     <!-- eslint-disable-next-line vuejs-accessibility/click-events-have-key-events -->
     <div className="teste py-12 px-4 text-2xl text-white cursor-pointer"
-    @click="goPort">
+    @click="goPage('portfolio')">
       About my Portfolio? Click here and discover more about me!
     </div>
   </div>
@@ -14,8 +14,8 @@ export default {
   components: {
   },
   methods: {
-    goPort() {
-      this.$router.push({ name: 'portfolio' });
+    goPage(route) {
+      this.$router.push({ name: route });
     },
   },
 };

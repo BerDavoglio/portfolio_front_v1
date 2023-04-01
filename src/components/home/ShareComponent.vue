@@ -4,7 +4,7 @@
     <div className="h-[28rem] max-w-[42rem] mx-auto rounded p-6"
       style='background: linear-gradient(124.09deg, #D157F2 1.58%, #56308C 20.51%,#5D60A6 77.34%, #1F1640 115.83%);'>
       <div className="text-white text-3xl font-semibold">Projeto de Destaque:</div>
-      <div :className=classeFoto>
+      <div :className="['grid ' + (haveFoto ? 'grid-cols-2' : 'grid-cols-1')]">
         <img src="../../assets/portfolio/project_test/1.png" alt="" className="
               object-cover
               h-[20rem] w-[80%]
@@ -19,7 +19,7 @@
           <!-- eslint-disable-next-line vuejs-accessibility/click-events-have-key-events -->
           <div className="ml-[20%]
               w-32 bg-red-700 text-white p-2 mt-4 rounded-md hover:bg-red-800
-              active:bg-red-900 cursor-pointer" @click="goProject">Read More</div>
+              active:bg-red-900 cursor-pointer" @click="goPage('home')">Read More</div>
         </div>
       </div>
     </div>
@@ -35,36 +35,28 @@ export default {
     return {
       windowWidth: window.innerWidth,
       haveFoto: true,
-      classeFoto: 'grid grid-cols-2',
     };
   },
   methods: {
     onResize() {
       this.windowWidth = window.innerWidth;
     },
-    goProject() {
-      this.$router.push({ name: 'home' });
+    verifyResize(i) {
+      if (i < 768) {
+        return true;
+      } return false;
+    },
+    goPage(route) {
+      this.$router.push({ name: route });
     },
   },
   watch: {
     windowWidth(newWidth) {
-      if (newWidth < 768) {
-        this.haveFoto = false;
-        this.classeFoto = 'grid grid-cols-1';
-      } else {
-        this.haveFoto = true;
-        this.classeFoto = 'grid grid-cols-2';
-      }
+      this.haveFoto = !this.verifyResize(newWidth);
     },
   },
   beforeMount() {
-    if (window.innerWidth < 768) {
-      this.haveFoto = false;
-      this.classeFoto = 'grid grid-cols-1';
-    } else {
-      this.haveFoto = true;
-      this.classeFoto = 'grid grid-cols-2';
-    }
+    this.haveFoto = !this.verifyResize(window.innerWidth);
   },
   mounted() {
     this.$nextTick(() => {
