@@ -2,7 +2,7 @@
 <template>
   <div class="share" className="h-[32rem] p-4">
     <div className="h-[28rem] max-w-[42rem] mx-auto rounded p-6"
-      style='background: linear-gradient(124.09deg, #D157F2 1.58%, #56308C 20.51%,#5D60A6 77.34%, #1F1640 115.83%);'>
+      style="background: linear-gradient(124.09deg, #D157F2 1.58%, #56308C 20.51%,#5D60A6 77.34%, #1F1640 115.83%);">
       <div className="text-white text-3xl font-semibold">
         {{ $t('home.share.title') }}:
       </div>
@@ -12,7 +12,7 @@
               h-[20rem] w-[80%]
               m-auto mt-10 rounded-3xl" v-if="haveFoto">
         <div>
-          <div className="m-8 text-white text-justify">
+          <div className="m-8 h-64 text-white text-justify overflow-y-scroll scrollbar">
             {{ $t('home.share.description') }}
           </div>
           <!-- eslint-disable-next-line vuejs-accessibility/click-events-have-key-events -->
