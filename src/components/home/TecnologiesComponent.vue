@@ -1,6 +1,8 @@
 <template>
   <div className="p-4">
-    <div className="mb-2 font-bold text-xl">Tecnologias Utilizadas:</div>
+    <div className="mb-2 font-bold text-xl">
+      {{ $t('home.tecnologies.title') }}:
+    </div>
     <Swiper :slides-per-view="slides">
       <SwiperSlide>
         <v-icon name="io-logo-javascript" scale="4"></v-icon>
