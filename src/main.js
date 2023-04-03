@@ -1,6 +1,7 @@
 /* eslint-disable camelcase */
+
 import { createApp } from 'vue';
-import { createI18n } from 'vue-i18n';
+
 import { OhVueIcon, addIcons } from 'oh-vue-icons';
 import {
   IoLogoJavascript,
@@ -24,13 +25,17 @@ import {
   GiHamburgerMenu,
   IoCloseSharp,
 } from 'oh-vue-icons/icons';
-import App from './App.vue';
-import router from './router';
-import store from './store';
-import './assets/tailwind.css';
 
+import { createI18n } from 'vue-i18n';
 import { pt_BR } from './locales/pt_BR';
 import { en } from './locales/en';
+
+import router from './router';
+import store from './store';
+
+import './assets/tailwind.css';
+
+import App from './App.vue';
 
 const languages = {
   pt_BR,
@@ -66,6 +71,7 @@ addIcons(
 );
 
 createApp(App).component('v-icon', OhVueIcon)
-  .use(store).use(router)
+  .use(store)
+  .use(router)
   .use(i18n)
   .mount('#app');
