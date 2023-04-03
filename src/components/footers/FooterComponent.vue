@@ -4,8 +4,7 @@
   <div>
     <div :className="[
       'bg-black w-full pt-10 grid text-white '
-      + (this.windowWidth > 768 ? 'grid-cols-4' : 'grid-cols-2')]">
-      <part-one></part-one>
+      + (this.windowWidth > 768 ? 'grid-cols-3' : 'grid-cols-1')]">
       <part-two></part-two>
       <part-three></part-three>
       <part-four></part-four>
@@ -22,7 +21,7 @@
 </template>
 
 <script>
-import PartOne from './PartOne.vue';
+// import PartOne from './PartOne.vue';
 import PartTwo from './PartTwo.vue';
 import PartThree from './PartThree.vue';
 import PartFour from './PartFour.vue';
@@ -30,7 +29,7 @@ import PartFour from './PartFour.vue';
 export default {
   name: 'FooterComponent',
   components: {
-    PartOne,
+    // PartOne,
     PartTwo,
     PartThree,
     PartFour,
