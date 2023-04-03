@@ -12,7 +12,7 @@
               h-[20rem] w-[80%]
               m-auto mt-10 rounded-3xl" v-if="haveFoto">
         <div>
-          <div className="m-8 h-64 text-white text-justify overflow-y-scroll scrollbar">
+          <div className="m-8 h-[14rem] text-white text-justify overflow-y-scroll scrollbar">
             {{ $t('home.share.description') }}
           </div>
           <!-- eslint-disable-next-line vuejs-accessibility/click-events-have-key-events -->

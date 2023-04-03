@@ -26,7 +26,7 @@ export const pt_BR = {
   },
   home: {
     share: {
-      title: 'Projeto de Destaque',
+      title: 'Projeto Destaque',
       description: 'Projeto B1L3Lab: Projeto de Iniciação ciêntifica na qual teve seu desenvolvimento na Universidade Federal do Paraná pela entidade Ciência é para Todos, com o objetivo de criar um dispositivo IoT para segurança de ciclistas em volta do Brasil.',
       readMore: 'Leia Mais',
     },
