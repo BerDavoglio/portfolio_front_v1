@@ -5,7 +5,7 @@
     <div className="grid grid-cols-1 py-4">
       <div>
         <p className="text-2xl">Bernardo Davoglio</p>
-        <p className="mb-2">Programador</p>
+        <p className="mb-2">{{ $t('header.subtitle') }}</p>
       </div>
       <div :className="['grid m-auto cursor-pointer ' + (isCell ? 'grid-cols-2' : 'grid-cols-4')]">
         <div className="
