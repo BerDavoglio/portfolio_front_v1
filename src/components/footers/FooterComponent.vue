@@ -1,15 +1,22 @@
+<!-- eslint-disable vuejs-accessibility/click-events-have-key-events -->
+
 <template>
   <div>
     <div :className="[
       'bg-black w-full pt-10 grid text-white '
-        + (this.windowWidth > 768 ? 'grid-cols-4' : 'grid-cols-2')]">
+      + (this.windowWidth > 768 ? 'grid-cols-4' : 'grid-cols-2')]">
       <part-one></part-one>
       <part-two></part-two>
       <part-three></part-three>
       <part-four></part-four>
     </div>
   </div>
-  <div class="bg-black w-full h-12 text-white p-4">
+  <div className="p-6 bg-black text-white text-2xl cursor-pointer">
+    <span @click="setLocale('pt_BR')">PT</span>
+    <span> | </span>
+    <span @click="setLocale('en')">EN</span>
+  </div>
+  <div class="bg-black w-full text-white pb-4">
     <div>© {{ $t('footer.rights') }}</div>
   </div>
 </template>
@@ -36,6 +43,9 @@ export default {
   methods: {
     onResize() {
       this.windowWidth = window.innerWidth;
+    },
+    setLocale(locale) {
+      this.$i18n.locale = locale;
     },
   },
   mounted() {
