@@ -10,10 +10,12 @@
       <part-four></part-four>
     </div>
   </div>
-  <div className="p-6 bg-black text-white text-2xl cursor-pointer">
-    <span @click="setLocale('pt_BR')">PT</span>
-    <span> | </span>
-    <span @click="setLocale('en')">EN</span>
+  <div className="p-6 bg-black text-white text-2xl">
+    <div className="w-48 p-2 m-auto border-2 border-white rounded-2xl">
+      <span @click="setLocale('pt_BR')" className="cursor-pointer">PT</span>
+      <span> | </span>
+      <span @click="setLocale('en')" className="cursor-pointer">EN</span>
+    </div>
   </div>
   <div class="bg-black w-full text-white pb-4">
     <div>© {{ $t('footer.rights') }}</div>
