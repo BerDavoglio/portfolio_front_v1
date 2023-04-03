@@ -21,6 +21,8 @@ import {
   BiFacebook,
   BiInstagram,
   BiGithub,
+  GiHamburgerMenu,
+  IoCloseSharp,
 } from 'oh-vue-icons/icons';
 import App from './App.vue';
 import router from './router';
@@ -59,6 +61,8 @@ addIcons(
   BiFacebook,
   BiInstagram,
   BiGithub,
+  GiHamburgerMenu,
+  IoCloseSharp,
 );
 
 createApp(App).component('v-icon', OhVueIcon)

@@ -1,65 +1,40 @@
 <!-- eslint-disable max-len -->
 <!-- eslint-disable vuejs-accessibility/click-events-have-key-events -->
+
 <template>
   <div>
-    <div className="grid grid-cols-1 py-4">
+    <div :className="['grid py-4 ' + (isCell ? 'grid-cols-1' : 'grid-cols-2')]">
       <div>
-        <p className="text-2xl">Bernardo Davoglio</p>
+        <div :className="['text-2xl ' + (isCell ? ' grid grid-cols-5' : '')]">
+          <div @click="openMenu" className="cursor-pointer">
+            <v-icon name="gi-hamburger-menu" scale="2" v-if="isCell && !isOpen" style="margin-left: 1.5rem;" />
+            <v-icon name="io-close-sharp" scale="2" v-if="isCell && isOpen" style="margin-left: 1.5rem;" />
+          </div>
+          <div className="col-2 col-span-3">Bernardo Davoglio</div>
+        </div>
         <p className="mb-2">{{ $t('header.subtitle') }}</p>
       </div>
-      <div :className="['grid m-auto cursor-pointer ' + (isCell ? 'grid-cols-2' : 'grid-cols-4')]">
-        <div className="
-          w-24
-          border-r-2
-          hover:bg-gray-300
-          active:bg-gray-400
-          active:text-white
-          py-4
-          border-l-2" @click="goPage('home')">
-          {{ $t('menu.home') }}
-        </div>
-        <div className="
-          w-24
-          border-r-2
-          hover:bg-gray-300
-          active:bg-gray-400
-          active:text-white
-          py-4" @click="goPage('about')">
-          {{ $t('menu.about') }}
-        </div>
-        <div className="
-          w-24
-          border-r-2
-          hover:bg-gray-300
-          active:bg-gray-400
-          active:text-white
-          py-4
-          border-l-2" @click="goPage('portfolio')">
-          {{ $t('menu.portfolio') }}
-        </div>
-        <div className="
-          w-24
-          border-r-2
-          hover:bg-gray-300
-          active:bg-gray-400
-          active:text-white
-          py-4" @click="goPage('contact')">
-          {{ $t('menu.contact') }}
-        </div>
-      </div>
+      <buttons-line-component v-if="!isCell"></buttons-line-component>
+      <buttons-drop-component v-if="isCell" :isOpen="!isOpen"></buttons-drop-component>
     </div>
     <div className="w-[95%] h-0.5 bg-black m-auto"></div>
   </div>
 </template>
 
 <script>
+import ButtonsLineComponent from './ButtonsLineComponent.vue';
+import ButtonsDropComponent from './ButtonsDropComponent.vue';
+
 export default {
   name: 'HeaderComponent',
   components: {
+    ButtonsLineComponent,
+    ButtonsDropComponent,
   },
   data() {
     return {
       isCell: false,
+      isOpen: false,
       isCenter: 1,
       windowWidth: window.innerWidth,
     };
@@ -73,8 +48,8 @@ export default {
         return true;
       } return false;
     },
-    goPage(route) {
-      this.$router.push({ name: route });
+    openMenu() {
+      this.isOpen = !this.isOpen;
     },
   },
   watch: {
