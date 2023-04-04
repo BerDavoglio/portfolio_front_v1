@@ -28,8 +28,8 @@ export const pt_BR = {
     share: {
       title: 'Projetos Destaques',
       description_1: 'Projeto B1L3Lab: Projeto de Iniciação ciêntifica na qual teve seu desenvolvimento na Universidade Federal do Paraná pela entidade Ciência é para Todos, com o objetivo de criar um dispositivo IoT para segurança de ciclistas em volta do Brasil.',
-      description_2: 'Projeto BatteryTest: Projeto desenvolvido durante meu emprego em uma empresa de desenvolvimento de softwares japonesa, no qual tinha como o objetivo determinar o consumo de bateria utilizado pelo Acelerometro do celular, e compara-lo com o consumo de bateria do GPS.',
-      description_3: 'Projeto Check - Acesso Fácil: Precursor do aplicativo Check UFPR, que teve como o objetivo de conseguir mapear qualquer contato de pessoas com outras infectadas com COVID-19 dentro do Hospital Veterinário da UFPR Curitiba. Projeto desenvolvido durante a pandemia de 2020.',
+      description_2: 'Projeto Check - Acesso Fácil: Precursor do aplicativo Check UFPR, que teve como o objetivo de conseguir mapear qualquer contato de pessoas com outras infectadas com COVID-19 dentro do Hospital Veterinário da UFPR Curitiba. Projeto desenvolvido durante a pandemia de 2020.',
+      description_3: 'Projeto Controle de Estoque: Projeto desenvolvido durante meu emprego em uma empresa de desenvolvimento de softwares japonesa, no qual tinha como o objetivo determinar o consumo de bateria utilizado pelo Acelerometro do celular, e compara-lo com o consumo de bateria do GPS.',
       readMore: 'Leia Mais',
     },
     about: {
@@ -51,6 +51,69 @@ export const pt_BR = {
     tecnologies: {
       title: 'Quais tecnologias pode trabalhar?',
       description: 'Por mais que tenha feito diversos cursos citados na página inicial, podemos considerar que as principais tecnologias utilizadas por Bernardo sejam JavaScript e PHP.',
+    },
+  },
+  portfolio: {
+    readMore: 'Clique no card para ver mais!',
+    project_b1k3: {
+      title: 'Projeto B1K3Lab',
+      subtitle: 'Projeto de aplicativo com a integração com dispositivo IoT desenvolvido durante ',
+      description: '',
+    },
+    project_battery: {
+      title: 'Projeto BatteryTest',
+      subtitle: '',
+      description: '',
+    },
+    project_bsh: {
+      title: 'Projeto BSHNews',
+      subtitle: '',
+      description: '',
+    },
+    project_cdedaeq: {
+      title: 'Projeto Controle de Estoque (DAEQ)',
+      subtitle: '',
+      description: '',
+    },
+    project_checkaf: {
+      title: 'Projeto Check - Acesso Fácil',
+      subtitle: '',
+      description: '',
+    },
+    project_comida: {
+      title: 'Projeto Comida',
+      subtitle: '',
+      description: '',
+    },
+    project_dispesas: {
+      title: 'Projeto Dispesas',
+      subtitle: '',
+      description: '',
+    },
+    project_portifoliov1: {
+      title: 'Projeto Portifólio (Protótipo)',
+      subtitle: '',
+      description: '',
+    },
+    project_websitedanki: {
+      title: 'Projeto Site - Dunki',
+      subtitle: '',
+      description: '',
+    },
+    project_grz: {
+      title: 'Projeto Controle de Funcionário',
+      subtitle: '',
+      description: '',
+    },
+    project_stocktrade: {
+      title: 'Projeto StockTrade',
+      subtitle: '',
+      description: '',
+    },
+    project_yle: {
+      title: 'Projeto Youth Loves Egypth',
+      subtitle: '',
+      description: '',
     },
   },
 };

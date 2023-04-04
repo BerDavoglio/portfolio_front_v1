@@ -1,6 +1,6 @@
 <template>
   <div class="about" className="mb-8">
-    <div className="h-96">
+    <div className="h-96 mt-8">
       <Swiper :modules="modules" :space-between="50" navigation :autoplay="{ deplay: 5000 }">
         <SwiperSlide>
           <img src="../assets/images/ber_foto_1.jpeg" alt="" className="

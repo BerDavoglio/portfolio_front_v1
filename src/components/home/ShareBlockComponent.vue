@@ -16,7 +16,7 @@
         <div v-if="this.fullScreen" @click="makeImageFull"
           className="h-full w-full bg-gray-400/50 cursor-pointer fixed left-0 top-0">
           <img :src="['http://drive.google.com/uc?export=view&id=' + this.object.image]" alt=""
-            className=" z-50 object-cover mx-auto py-10 w-[18rem]">
+            className=" z-50 object-contain mx-auto py-10 max-h-[40rem]">
         </div>
         <div>
           <div v-if="haveFoto" className="px-2 m-8 h-[20rem] text-white text-justify overflow-y-scroll scrollbar">

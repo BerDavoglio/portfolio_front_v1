@@ -37,12 +37,12 @@ export default {
           link: 'home',
         },
         {
-          image: '179ncZcaWU9DP7U8UL0wksRuSQc8F09j2',
+          image: '15Za159SnbQpJEMUaKHhmj1h-R5pWcACF',
           description: 'home.share.description_2',
           link: 'home',
         },
         {
-          image: '15Za159SnbQpJEMUaKHhmj1h-R5pWcACF',
+          image: '1WQgVEDhPoU_gYTvxeG755-WFYTKt3KbP',
           description: 'home.share.description_3',
           link: 'home',
         },
