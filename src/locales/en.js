@@ -116,4 +116,8 @@ export const en = {
       description: '',
     },
   },
+  contact: {
+    title: 'Caso queira entrar em contato comigo, seja para o desenvolvimento de algum aplicativo, ou apenas para uma consulta, pode entrar em contato de acordo com as opções à baixo:',
+    subtitle: 'Caso tenha qualquer dificuldade em contactar por alguma das formas a cima, utilize os links diretos que existem no rodapé da página.',
+  },
 };
