@@ -53,4 +53,67 @@ export const en = {
       description: 'Por mais que tenha feito diversos cursos citados na página inicial, podemos considerar que as principais tecnologias utilizadas por Bernardo sejam JavaScript e PHP.',
     },
   },
+  portfolio: {
+    readMore: 'Clique no card para ver mais!',
+    project_b1k3: {
+      title: 'Project "B1K3Lab"',
+      subtitle: 'Project de aplicativo com a integração com dispositivo IoT desenvolvido durante ',
+      description: '',
+    },
+    project_battery: {
+      title: 'Project "BatteryTest"',
+      subtitle: '',
+      description: '',
+    },
+    project_bsh: {
+      title: 'Project "BSHNews"',
+      subtitle: '',
+      description: '',
+    },
+    project_cdedaeq: {
+      title: 'Project "Controle de Estoque (DAEQ)"',
+      subtitle: '',
+      description: '',
+    },
+    project_checkaf: {
+      title: 'Project "Check - Acesso Fácil"',
+      subtitle: '',
+      description: '',
+    },
+    project_comida: {
+      title: 'Project "Comida"',
+      subtitle: '',
+      description: '',
+    },
+    project_dispesas: {
+      title: 'Project "Dispesas"',
+      subtitle: '',
+      description: '',
+    },
+    project_portifoliov1: {
+      title: 'Project "Portifólio (Protótipo)"',
+      subtitle: '',
+      description: '',
+    },
+    project_websitedanki: {
+      title: 'Project "Site - Dunki"',
+      subtitle: '',
+      description: '',
+    },
+    project_grz: {
+      title: 'Project "Controle de Funcionário"',
+      subtitle: '',
+      description: '',
+    },
+    project_stocktrade: {
+      title: 'Project "StockTrade"',
+      subtitle: '',
+      description: '',
+    },
+    project_yle: {
+      title: 'Project "Youth Loves Egypth"',
+      subtitle: '',
+      description: '',
+    },
+  },
 };
