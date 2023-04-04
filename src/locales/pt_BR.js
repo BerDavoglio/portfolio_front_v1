@@ -26,8 +26,10 @@ export const pt_BR = {
   },
   home: {
     share: {
-      title: 'Projeto Destaque',
-      description: 'Projeto B1L3Lab: Projeto de Iniciação ciêntifica na qual teve seu desenvolvimento na Universidade Federal do Paraná pela entidade Ciência é para Todos, com o objetivo de criar um dispositivo IoT para segurança de ciclistas em volta do Brasil.',
+      title: 'Projetos Destaques',
+      description_1: 'Projeto B1L3Lab: Projeto de Iniciação ciêntifica na qual teve seu desenvolvimento na Universidade Federal do Paraná pela entidade Ciência é para Todos, com o objetivo de criar um dispositivo IoT para segurança de ciclistas em volta do Brasil.',
+      description_2: 'Projeto BatteryTest: Projeto desenvolvido durante meu emprego em uma empresa de desenvolvimento de softwares japonesa, no qual tinha como o objetivo determinar o consumo de bateria utilizado pelo Acelerometro do celular, e compara-lo com o consumo de bateria do GPS.',
+      description_3: 'Projeto Check - Acesso Fácil: Precursor do aplicativo Check UFPR, que teve como o objetivo de conseguir mapear qualquer contato de pessoas com outras infectadas com COVID-19 dentro do Hospital Veterinário da UFPR Curitiba. Projeto desenvolvido durante a pandemia de 2020.',
       readMore: 'Leia Mais',
     },
     about: {

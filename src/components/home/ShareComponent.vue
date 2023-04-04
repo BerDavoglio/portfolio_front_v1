@@ -1,79 +1,58 @@
-<!-- eslint-disable vuejs-accessibility/click-events-have-key-events -->
-<!-- eslint-disable max-len -->
 <template>
-  <div class="share" className="h-[32rem] p-4">
-    <div className="h-[30rem] max-w-[42rem] mx-auto rounded p-6"
-      style="background: linear-gradient(124.09deg, #D157F2 1.58%, #56308C 20.51%,#5D60A6 77.34%, #1F1640 115.83%);">
-      <div className="text-white text-3xl font-semibold">
-        {{ $t('home.share.title') }}:
-      </div>
-      <div :className="['grid ' + (haveFoto ? 'grid-cols-2' : 'grid-cols-1')]">
-        <img src="../../assets/portfolio/project_test/1.png" alt="" className="
-                  object-cover cursor-pointer
-                  h-[18rem] w-[80%]
-                  m-auto mt-10 rounded-3xl" @click="makeImageFull">
-        <div v-if="this.fullScreen" @click="makeImageFull" v-scroll-lock="this.fullScreen" className="h-full w-full bg-gray-400/50 cursor-pointer fixed left-0 top-0">
-          <img src="../../assets/portfolio/project_test/1.png" alt="" className=" z-50 object-cover mx-auto py-10 w-[18rem]">
-        </div>
-        <div>
-          <div v-if="haveFoto" className="m-8 h-[14rem] text-white text-justify overflow-y-scroll scrollbar">
-            {{ $t('home.share.description') }}
-          </div>
-          <!-- eslint-disable-next-line vuejs-accessibility/click-events-have-key-events -->
-          <div className="ml-[20%]
-                  w-32 bg-red-700 text-white p-2 mt-4 rounded-md hover:bg-red-800
-                  active:bg-red-900 cursor-pointer" @click="goPage('home')">
-            {{ $t('home.share.readMore') }}
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="mb-12"></div>
+  <div>
+    <Swiper :modules="modules" :space-between="50" navigation :autoplay="{ deplay: 5000 }">
+      <SwiperSlide v-for="obj in objects" v-bind:key="obj">
+        <share-block-component :object=obj></share-block-component>
+      </SwiperSlide>
+    </Swiper>
   </div>
 </template>
 
 <script>
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import {
+  Navigation,
+} from 'swiper';
+
+import ShareBlockComponent from './ShareBlockComponent.vue';
+
+// eslint-disable-next-line import/extensions
+import 'swiper/css';
+// eslint-disable-next-line import/extensions
+import 'swiper/css/navigation';
 
 export default {
   name: 'ShareComponent',
+  components: {
+    ShareBlockComponent,
+    Swiper,
+    SwiperSlide,
+  },
   data() {
     return {
-      windowWidth: window.innerWidth,
-      haveFoto: true,
-      fullScreen: false,
+      objects: [
+        {
+          image: '1Zlp1csuZYStsNqvhOvAmeQFsAxwjf24X',
+          description: 'home.share.description_1',
+          link: 'home',
+        },
+        {
+          image: '179ncZcaWU9DP7U8UL0wksRuSQc8F09j2',
+          description: 'home.share.description_2',
+          link: 'home',
+        },
+        {
+          image: '15Za159SnbQpJEMUaKHhmj1h-R5pWcACF',
+          description: 'home.share.description_3',
+          link: 'home',
+        },
+      ],
     };
   },
-  methods: {
-    onResize() {
-      this.windowWidth = window.innerWidth;
-    },
-    verifyResize(i) {
-      if (i < 768) {
-        return true;
-      } return false;
-    },
-    goPage(route) {
-      this.$router.push({ name: route });
-    },
-    makeImageFull() {
-      this.fullScreen = !this.fullScreen;
-    },
-  },
-  watch: {
-    windowWidth(newWidth) {
-      this.haveFoto = !this.verifyResize(newWidth);
-    },
-  },
-  beforeMount() {
-    this.haveFoto = !this.verifyResize(window.innerWidth);
-  },
-  mounted() {
-    this.$nextTick(() => {
-      window.addEventListener('resize', this.onResize);
-    });
-  },
-  beforeUnmount() {
-    window.removeEventListener('resize', this.onResize);
+  setup() {
+    return {
+      modules: [Navigation],
+    };
   },
 };
 </script>
