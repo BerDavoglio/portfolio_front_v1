@@ -34,17 +34,20 @@ export default {
         {
           image: '1Zlp1csuZYStsNqvhOvAmeQFsAxwjf24X',
           description: 'home.share.description_1',
-          link: 'home',
+          link: 'portfolio',
+          id: 1,
         },
         {
           image: '15Za159SnbQpJEMUaKHhmj1h-R5pWcACF',
           description: 'home.share.description_2',
-          link: 'home',
+          link: 'portfolio',
+          id: 2,
         },
         {
           image: '1WQgVEDhPoU_gYTvxeG755-WFYTKt3KbP',
           description: 'home.share.description_3',
-          link: 'home',
+          link: 'portfolio',
+          id: 3,
         },
       ],
     };

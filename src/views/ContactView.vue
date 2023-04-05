@@ -1,5 +1,5 @@
 <template>
-  <div className="h-80 max-w-3xl mx-auto p-4">
+  <div className="h-[23rem] max-w-3xl mx-auto p-4 mt-10">
     {{ $t('contact.title') }}
     <div className="mt-4"><strong>E-mail</strong>: berdavoglio@gmail.com</div>
     <div className="mt-4"><strong>Telefone</strong>: +55 (41) 9 8477-6477</div>

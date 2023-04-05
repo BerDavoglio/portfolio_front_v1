@@ -16,7 +16,7 @@ const routes = [
     component: AboutView,
   },
   {
-    path: '/portfolio',
+    path: '/portfolio/:id?',
     name: 'portfolio',
     component: PortfolioView,
   },

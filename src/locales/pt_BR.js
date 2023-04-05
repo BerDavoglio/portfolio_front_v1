@@ -58,7 +58,7 @@ export const pt_BR = {
     project_b1k3: {
       title: 'Projeto "B1K3Lab"',
       subtitle: 'Projeto de aplicativo com a integração com dispositivo IoT desenvolvido durante ',
-      description: '',
+      description: 'Projeto B1L3Lab: Projeto de Iniciação ciêntifica na qual teve seu desenvolvimento na Universidade Federal do Paraná pela entidade Ciência é para Todos, com o objetivo de criar um dispositivo IoT para segurança de ciclistas em volta do Brasil.Projeto B1L3Lab: Projeto de Iniciação ciêntifica na qual teve seu desenvolvimento na Universidade Federal do Paraná pela entidade Ciência é para Todos, com o objetivo de criar um dispositivo IoT para segurança de ciclistas em volta do Brasil.Projeto B1L3Lab: Projeto de Iniciação ciêntifica na qual teve seu desenvolvimento na Universidade Federal do Paraná pela entidade Ciência é para Todos, com o objetivo de criar um dispositivo IoT para segurança de ciclistas em volta do Brasil.Projeto B1L3Lab: Projeto de Iniciação ciêntifica na qual teve seu desenvolvimento na Universidade Federal do Paraná pela entidade Ciência é para Todos, com o objetivo de criar um dispositivo IoT para segurança de ciclistas em volta do Brasil.',
     },
     project_battery: {
       title: 'Projeto "BatteryTest"',

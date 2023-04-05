@@ -25,7 +25,7 @@
           <!-- eslint-disable-next-line vuejs-accessibility/click-events-have-key-events -->
           <div className="ml-[30%]
                     w-32 bg-red-700 text-white p-2 mt-4 rounded-md hover:bg-red-800
-                    active:bg-red-900 cursor-pointer" @click="goPage(this.object.link)">
+                    active:bg-red-900 cursor-pointer" @click="goPage(this.object.link, this.object.id)">
             {{ $t('home.share.readMore') }}
           </div>
         </div>
@@ -58,14 +58,11 @@ export default {
         return true;
       } return false;
     },
-    goPage(route) {
-      this.$router.push({ name: route });
+    goPage(route, params) {
+      this.$router.push({ name: route, params: { id: params } });
     },
     makeImageFull() {
       this.fullScreen = !this.fullScreen;
-    },
-    getUrl() {
-      return this.object.image;
     },
   },
   watch: {
