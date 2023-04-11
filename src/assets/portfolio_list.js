@@ -11,7 +11,9 @@ export default [
       '1NeOwXjnzM-AWcKD9F9aV3T8R9rGgtS3P',
       '1MROA4DGGjDSZlr47hEqZ16vdk-CuDJ_y',
     ],
-    description: 'portfolio.project_b1k3.description',
+    descriptionOne: 'portfolio.project_b1k3.descriptionOne',
+    descriptionTwo: 'portfolio.project_b1k3.descriptionTwo',
+    link: 'portfolio.project_b1k3.link',
   },
   {
     title: 'portfolio.project_checkaf.title',
@@ -25,7 +27,9 @@ export default [
       '1cjigMfnfrHWITZSEs_lPcbjccQqt0cUG',
       '1YVDi49sEDXuZlL7NG9ezT0KXfL9PyvYl',
     ],
-    description: 'portfolio.project_checkaf.description',
+    descriptionOne: 'portfolio.project_checkaf.descriptionOne',
+    descriptionTwo: 'portfolio.project_checkaf.descriptionTwo',
+    link: 'portfolio.project_checkaf.link',
   },
   {
     title: 'portfolio.project_grz.title',
@@ -39,7 +43,9 @@ export default [
       '1CuMEXLQaDPc10q-M_6nQ94PkMehwBadB',
       '1vmeI5H_pOsg2ZXJKtuetnaepIuPXyTuB',
     ],
-    description: 'portfolio.project_grz.description',
+    descriptionOne: 'portfolio.project_grz.descriptionOne',
+    descriptionTwo: 'portfolio.project_grz.descriptionTwo',
+    link: 'portfolio.project_grz.link',
   },
   {
     title: 'portfolio.project_yle.title',
@@ -52,7 +58,9 @@ export default [
       '1zV4TiGcvkzEKJrh1cJdT9Ed1LXWZfCtd',
       '1AfiBV7M6p9EBrwElJy6SDZSNj-VqXw9a',
     ],
-    description: 'portfolio.project_yle.description',
+    descriptionOne: 'portfolio.project_yle.descriptionOne',
+    descriptionTwo: 'portfolio.project_yle.descriptionTwo',
+    link: 'portfolio.project_yle.link',
   },
   {
     title: 'portfolio.project_cdedaeq.title',
@@ -60,7 +68,9 @@ export default [
     image: [
       '13QNr3cSIrEXTJV2i42HImlHKqDYMaZWq',
     ],
-    description: 'portfolio.project_cdedaeq.description',
+    descriptionOne: 'portfolio.project_cdedaeq.descriptionOne',
+    descriptionTwo: 'portfolio.project_cdedaeq.descriptionTwo',
+    link: 'portfolio.project_cdedaeq.link',
   },
   {
     title: 'portfolio.project_portifoliov1.title',
@@ -68,7 +78,9 @@ export default [
     image: [
       '1yzE9nBXncLK3seV6IsBP0WWFND9MGTgb',
     ],
-    description: 'portfolio.project_portifoliov1.description',
+    descriptionOne: 'portfolio.project_portifoliov1.descriptionOne',
+    descriptionTwo: 'portfolio.project_portifoliov1.descriptionTwo',
+    link: 'portfolio.project_portifoliov1.link',
   },
   {
     title: 'portfolio.project_websitedanki.title',
@@ -79,7 +91,9 @@ export default [
       '1WoyPtVBDt1qQJJFX-QsKGvjabIPsniOh',
       '1iarnR5itmA9jxUtV7TG5y1zYIbEEdvRe',
     ],
-    description: 'portfolio.project_websitedanki.description',
+    descriptionOne: 'portfolio.project_websitedanki.descriptionOne',
+    descriptionTwo: 'portfolio.project_websitedanki.descriptionTwo',
+    link: 'portfolio.project_websitedanki.link',
   },
   {
     title: 'portfolio.project_stocktrade.title',
@@ -89,7 +103,9 @@ export default [
       '1OwgGVhlbVxpV_IbncLsqSKGLA30jDNip',
       '1OtlJNuU8ZxK_NEak9KMJ85Jx39kd2jaY',
     ],
-    description: 'portfolio.project_stocktrade.description',
+    descriptionOne: 'portfolio.project_stocktrade.descriptionOne',
+    descriptionTwo: 'portfolio.project_stocktrade.descriptionTwo',
+    link: 'portfolio.project_stocktrade.link',
   },
   {
     title: 'portfolio.project_battery.title',
@@ -99,7 +115,9 @@ export default [
       '19AXHbwl3sg3T_jcieUPHO0FyL3ng9WVa',
       '1s5SfEW5TdhwvRlE8FanGAr0euZQeowO6',
     ],
-    description: 'portfolio.project_battery.description',
+    descriptionOne: 'portfolio.project_battery.descriptionOne',
+    descriptionTwo: 'portfolio.project_battery.descriptionTwo',
+    link: 'portfolio.project_battery.link',
   },
   {
     title: 'portfolio.project_bsh.title',
@@ -108,7 +126,9 @@ export default [
       '10XwBMSwMKyAKEb64aVk7iYG-rRCcTuT8',
       '16i-wNVCQ0DcFWccnGkAp9xBwL70e9SK5',
     ],
-    description: 'portfolio.project_bsh.description',
+    descriptionOne: 'portfolio.project_bsh.descriptionOne',
+    descriptionTwo: 'portfolio.project_bsh.descriptionTwo',
+    link: 'portfolio.project_bsh.link',
   },
   {
     title: 'portfolio.project_comida.title',
@@ -119,7 +139,9 @@ export default [
       '1skdDof-2NExHo9TWR2lhCkn3yj-PoEvp',
       '153480KsKGWm74FjqwGMtS-LgD5cLgDpR',
     ],
-    description: 'portfolio.project_comida.description',
+    descriptionOne: 'portfolio.project_comida.descriptionOne',
+    descriptionTwo: 'portfolio.project_comida.descriptionTwo',
+    link: 'portfolio.project_comida.link',
   },
   {
     title: 'portfolio.project_dispesas.title',
@@ -129,6 +151,18 @@ export default [
       '1yjYxA-Q34Aoxx6piJCrhHxNbR8sjni6C',
       '1S9FwVUxgtQ_O8LPyzt34ZlL_t9ZsDU9w',
     ],
-    description: 'portfolio.project_dispesas.description',
+    descriptionOne: 'portfolio.project_dispesas.descriptionOne',
+    descriptionTwo: 'portfolio.project_dispesas.descriptionTwo',
+    link: 'portfolio.project_dispesas.link',
+  },
+  {
+    title: 'portfolio.project_v1k1z.title',
+    subtitle: 'portfolio.project_v1k1z.subtitle',
+    image: [
+      '17pWrWhJ4Y7X04VyFkGnnoRVyPf3tEp2j',
+    ],
+    descriptionOne: 'portfolio.project_v1k1z.descriptionOne',
+    descriptionTwo: 'portfolio.project_v1k1z.descriptionTwo',
+    link: 'portfolio.project_v1k1z.link',
   },
 ];
