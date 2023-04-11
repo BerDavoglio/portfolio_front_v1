@@ -36,12 +36,23 @@
         {{ $t('about.whos.description') }}
       </div>
     </div>
-    <div className="mx-[20%]">
+    <div className="mx-[20%] mt-10">
       <div className="text-3xl font-bold text-left">
         {{ $t('about.tecnologies.title') }}
       </div>
       <div className="text-justify">
         {{ $t('about.tecnologies.description') }}
+        <div className="mx-10 my-4">
+          <li>Python (Django)</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript (NodeJS, React/React Native, Vue, Angular, NuxtJS)</li>
+          <li>PHP (Blade, Laravel)</li>
+          <li>Dart (Flutter)</li>
+          <li>C++ (Unreal)</li>
+          <li>C# (ASP.NET Core 5, Unity)</li>
+          <li>Power BI/Excel</li>
+        </div>
       </div>
     </div>
   </div>

@@ -13,15 +13,17 @@
         <img alt="" src="../../assets/images/ber_foto_1.jpeg" className="w-[42rem] mx-auto z-50" />
       </div>
       <div>
-        <p className="
+        <div className="
                   text-white text-justify
-                  w-[75%] max-h-[32rem]
+                  w-[75%] h-[32rem]
                   rounded-md
                   mt-10 mx-auto p-4
                   bg-gray-900/75
                   overflow-y-scroll scrollbar">
-          {{ $t('home.about.text') }}
-        </p>
+          <p>{{ $t('home.about.textOne') }}</p>
+          <p>{{ $t('home.about.textTwo') }}</p>
+          <p>{{ $t('home.about.textThree') }}</p>
+      </div>
         <div className="ml-[12.5%]
                   w-32 bg-red-700 text-white p-2 mt-4 rounded-md hover:bg-red-800
                   active:bg-red-900 cursor-pointer" @click="goPage('about')">

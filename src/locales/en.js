@@ -10,12 +10,12 @@ export const en = {
   footer: {
     rights: 'All rights reserved, Bernardo Davoglio, 2022.',
     three: {
-      title: 'Informations',
+      title: 'Information',
       address: 'Address',
       cellphone: 'Cellphone',
     },
     four: {
-      title: 'Social Medias',
+      title: 'Social Media',
     },
   },
   menu: {
@@ -26,98 +26,100 @@ export const en = {
   },
   home: {
     share: {
-      title: 'Projects Highlight',
-      description_1: 'Project B1L3Lab: Projeto de Iniciação ciêntifica na qual teve seu desenvolvimento na Universidade Federal do Paraná pela entidade Ciência é para Todos, com o objetivo de criar um dispositivo IoT para segurança de ciclistas em volta do Brasil.',
-      description_2: 'Project BatteryTest: Projeto desenvolvido durante meu emprego em uma empresa de desenvolvimento de softwares japonesa, no qual tinha como o objetivo determinar o consumo de bateria utilizado pelo Acelerometro do celular, e compara-lo com o consumo de bateria do GPS.',
-      description_3: 'Project Check - Acesso Fácil: Precursor do aplicativo Check UFPR, que teve como o objetivo de conseguir mapear qualquer contato de pessoas com outras infectadas com COVID-19 dentro do Hospital Veterinário da UFPR Curitiba. Projeto desenvolvido durante a pandemia de 2020.',
-      readMore: 'Read More',
+      title: 'Project Highlight',
+      description_1: 'Project B1L3Lab: Scientific Initiation Project in which it was developed at the Federal University of Paraná by the entity Ciência é para Todos, with the objective of creating an IoT device for the safety of cyclists around Brazil. In addition to the development of the software shown in the images, the Scientific Initiation project also included the development of an IoT (Internet of Things) platform to be able to collect data during the use of cyclists.',
+      description_2: 'Project Check - Acesso Fácil: Precursor of the Check UFPR application, which aimed to be able to map any contact of people with others infected with COVID-19 within the Veterinary Hospital of UFPR Curitiba. Project developed during the 2020 pandemic, which was widely accepted by the university’s rectory, and which was later expanded and actively used during the return to school at the university during the years 2021 and 2022.',
+      description_3: 'Project Controle de Funcionários: Website developed for the company Grupo Risco Zero, in which they had difficulty with mapping and controlling the hours worked by employees. As an automated alternative, a website with a Back-End server was proposed to make all employee entries, as well as the accounting of hours worked and the total amount of payment.',
+      readMore: 'Read About',
     },
     about: {
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet, justo eget pretium volutpat, dolor erat congue quam, sit amet sollicitudin lacus mi id neque. Nam eu auctor purus, sed ornare ex. Aliquam sagittis dignissim sem vitae tincidunt. Quisque sollicitudin ultrices augue, sit amet elementum ligula sodales quis. Nulla vestibulum suscipit aliquam. Morbi eget sollicitudin odio. Praesent commodo eros lorem. In id posuere dolor. Duis posuere pulvinar risus, non finibus erat. Integer luctus dictum massa, at dapibus arcu tincidunt at. Vivamus cursus placerat molestie. Suspendisse accumsan pellentesque nunc id scelerisque. Proin vitae mollis ligula. Ut lobortis dui ornare semper scelerisque. Sed sed turpis dapibus, scelerisque ex ut, suscipit enim. Phasellus viverra sollicitudin lorem sit amet placerat. Donec volutpat vitae nibh sit amet faucibus. Etiam porttitor lobortis purus, quis tempus sapien pellentesque ac. Vestibulum eget ligula non quam ornare semper et in nunc. Fusce viverra dapibus quam nec fringilla. Pellentesque id iaculis massa. Nunc nisl massa, volutpat sit amet eros finibus, aliquet scelerisque lorem. Etiam ac magna velit. Vivamus efficitur pretium accumsan. Phasellus a enim tempor, venenatis ex ut, viverra lacus. Integer ullamcorper enim sed felis varius, sed posuere nulla fermentum. Curabitur ac quam mattis, ultrices libero ut, vestibulum leo. Fusce at nisi libero. Integer condimentum ullamcorper elementum. Mauris diam tortor, malesuada tristique sapien in, malesuada tincidunt massa. Mauris placerat dictum tortor, et aliquam ligula porttitor non. Vivamus vitae feugiat enim. Donec id fermentum tellus. Donec nec mauris commodo, condimentum nisi quis, aliquam felis. Praesent eget mauris sit amet enim elementum ornare vitae vel metus. Aliquam ullamcorper, ipsum ut varius bibendum, ipsum ante mattis nisi, dignissim laoreet ex sem non libero. Vestibulum arcu leo, imperdiet semper ipsum sit amet, fermentum euismod quam. Nullam orci odio, volutpat in sagittis ac, sagittis id augue. Maecenas dui felis, eleifend eu ornare eget, fringilla id leo. Sed aliquam ante at eros interdum commodo. Phasellus a arcu consequat, aliquet velit quis, egestas neque. Pellentesque tincidunt mauris ut ante euismod, at sodales sapien tincidunt. Sed commodo leo eget efficitur euismod. Nunc molestie quam lorem, at scelerisque metus rhoncus et. Vivamus risus dolor, malesuada ac libero sit amet, suscipit eleifend nisi. Praesent finibus suscipit tincidunt. Integer dictum ut sapien sit amet maximus. Suspendisse et eros mauris. Phasellus commodo porttitor turpis, laoreet sagittis augue congue vestibulum. Sed lectus ante, sollicitudin a justo ac, posuere interdum metus. Praesent ultricies nisi eget ex vulputate, ut rutrum ipsum lacinia. Proin laoreet commodo orci id dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam vitae blandit nulla. Aenean eu orci non urna accumsan pellentesque in at erat. Nulla et mauris quis neque consequat finibus. In eu accumsan elit. Vestibulum id luctus arcu. Cras mollis sed sem ac auctor. Suspendisse bibendum vehicula diam, sit amet venenatis purus fringilla ac. Sed placerat libero non felis facilisis sodales.',
-      readMore: 'Read More',
+      textOne: 'Hello! Im Bernardo Davoglio, Im currently 21 years old, I live in Curitiba/PR, Ive been a programmer for over 5 years, with a great current focus on Web development, both Front-End and Back-End, but not limited to this type of web development. system, being able to increase the range of opportunities in which I work.',
+      textTwo: 'Since before my graduation in Chemical Engineering at the Federal University of Paraná in 2020, I already had a great passion for systems development, Python being the programming language which I had my first contact and learning. I believe it was the best start in studies, due to the ease of study that Python provides, and the accessibility in which Python manages to teach Programming Logic.',
+      textThree: 'I believe that, as much as I dont have the ease of having years of experience in companies in the field in my curriculum, I am comfortable with the development of programs, being able to compensate for the lack of professional experience with hard work and dedication, two pillars that I built throughout my education. This website shows that, even though I dont have an enviable curriculum, years of experience behind me, or even diplomas that support any narrative I have, I prove through this website that, at least, I have the necessary dedication for any service.',
+      readMore: 'Read About',
     },
     portfolio: {
-      title: 'About my portfolio? Click here and discover more about!',
+      title: 'About my Portfolio? Click here and find out more about it!',
     },
     tecnologies: {
-      title: 'Used Tecnologies',
+      title: 'Technologies Used',
     },
   },
   about: {
     whos: {
       title: 'Who is?',
-      description: 'Bernardo Davoglio, atualmente estudante de Engenharia Química pela Universidade Federal do Paraná, é um desenvolvedor de Softwares, tanto Front-End quanto Back-End, com um vasto conhecimento em diversas linguagens de programação, como JavaScript e PHP.',
+      description: 'Bernardo Davoglio, student in Chemical Engineering at the Federal University of Paraná (2020 - Currently), currently 21 years old and more than 5 years studying programming. Within all the years of college, Ive lived incredible experiences, such as living for 2 months in Cairo/Egypt, with the intention of participating in a voluntary work program in systems development; in addition to having also lived and worked in Orlando/Florida at the Walt Disney World Company, in which my main objective was the development of my English skills, the increase in interpersonal and client treatment tools, in addition to being able to have a unique experience, with training in the largest service company in the world.',
     },
     tecnologies: {
-      title: 'Which tecnologies can work with?',
-      description: 'Por mais que tenha feito diversos cursos citados na página inicial, podemos considerar que as principais tecnologias utilizadas por Bernardo sejam JavaScript e PHP.',
+      title: 'Which technologies can I work with?',
+      description: 'In addition to having knowledge in the area of Front-End web development, such as skills in HTML/CSS, pure JavaScript and their frameworks aimed at Front-End development (React and Vue, the latter used to make this website) , pure PHP and its Blade framework, I can also mention the knowledge in Back-End development, being able to mention the main platforms being NodeJS and Laravel, JavaScript and PHP respectively. Leaving the scope of Web development, I can also mention the knowledge in systems development, being able to mention the knowledge in Python, C++, C#, among others; I can also mention the range of knowledge going to the area of ​​game development for the Unity and Unreal platform, in which I have some course certificates proving the skills in question. In the items allocated below will be the programming languages ​​and their frameworks known to me (It is worth noting that, due to full knowledge in Logic Programming, any knowledge, in any language, can be acquired!):',
     },
   },
   portfolio: {
-    readMore: 'Clique no card para ver mais!',
+    readMore: 'Click in the card to see more about!',
     project_b1k3: {
-      title: 'Project "B1K3Lab"',
-      subtitle: 'Project de aplicativo com a integração com dispositivo IoT desenvolvido durante ',
-      description: '',
+      title: 'Projeto "B1K3Lab"',
+      subtitle: 'Projeto de aplicativo com a integração com dispositivo IoT desenvolvido durante ',
+      description: 'Projeto B1L3Lab: Projeto de Iniciação ciêntifica na qual teve seu desenvolvimento na Universidade Federal do Paraná pela entidade Ciência é para Todos, com o objetivo de criar um dispositivo IoT para segurança de ciclistas em volta do Brasil.Projeto B1L3Lab: Projeto de Iniciação ciêntifica na qual teve seu desenvolvimento na Universidade Federal do Paraná pela entidade Ciência é para Todos, com o objetivo de criar um dispositivo IoT para segurança de ciclistas em volta do Brasil.Projeto B1L3Lab: Projeto de Iniciação ciêntifica na qual teve seu desenvolvimento na Universidade Federal do Paraná pela entidade Ciência é para Todos, com o objetivo de criar um dispositivo IoT para segurança de ciclistas em volta do Brasil.Projeto B1L3Lab: Projeto de Iniciação ciêntifica na qual teve seu desenvolvimento na Universidade Federal do Paraná pela entidade Ciência é para Todos, com o objetivo de criar um dispositivo IoT para segurança de ciclistas em volta do Brasil.',
     },
     project_battery: {
-      title: 'Project "BatteryTest"',
+      title: 'Projeto "BatteryTest"',
       subtitle: '',
       description: '',
     },
     project_bsh: {
-      title: 'Project "BSHNews"',
+      title: 'Projeto "BSHNews"',
       subtitle: '',
       description: '',
     },
     project_cdedaeq: {
-      title: 'Project "Controle de Estoque (DAEQ)"',
+      title: 'Projeto "Controle de Estoque (DAEQ)"',
       subtitle: '',
       description: '',
     },
     project_checkaf: {
-      title: 'Project "Check - Acesso Fácil"',
+      title: 'Projeto "Check - Acesso Fácil"',
       subtitle: '',
       description: '',
     },
     project_comida: {
-      title: 'Project "Comida"',
+      title: 'Projeto "Comida"',
       subtitle: '',
       description: '',
     },
     project_dispesas: {
-      title: 'Project "Dispesas"',
+      title: 'Projeto "Dispesas"',
       subtitle: '',
       description: '',
     },
     project_portifoliov1: {
-      title: 'Project "Portifólio (Protótipo)"',
+      title: 'Projeto "Portifólio (Protótipo)"',
       subtitle: '',
       description: '',
     },
     project_websitedanki: {
-      title: 'Project "Site - Dunki"',
+      title: 'Projeto "Site - Dunki"',
       subtitle: '',
       description: '',
     },
     project_grz: {
-      title: 'Project "Controle de Funcionário"',
+      title: 'Projeto "Controle de Funcionário"',
       subtitle: '',
       description: '',
     },
     project_stocktrade: {
-      title: 'Project "StockTrade"',
+      title: 'Projeto "StockTrade"',
       subtitle: '',
       description: '',
     },
     project_yle: {
-      title: 'Project "Youth Loves Egypth"',
+      title: 'Projeto "Youth Loves Egypth"',
       subtitle: '',
       description: '',
     },
   },
   contact: {
-    title: 'Caso queira entrar em contato comigo, seja para o desenvolvimento de algum aplicativo, ou apenas para uma consulta, pode entrar em contato de acordo com as opções à baixo:',
-    subtitle: 'Caso tenha qualquer dificuldade em contactar por alguma das formas a cima, utilize os links diretos que existem no rodapé da página.',
+    title: 'If you want to get in touch with me, either for the development of an application, or just for a query, you can contact me according to the options below:',
+    subtitle: 'If you have any difficulty getting in touch using any of the methods above, use the direct links at the bottom of the page.',
   },
 };
