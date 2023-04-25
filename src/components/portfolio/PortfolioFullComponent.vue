@@ -27,11 +27,15 @@
         <li>{{ i }}</li>
       </div>
     </div>
-    <div className="text-justify px-2
-        m-auto max-w-[60rem]
-        my-10 underline hover:text-blue-500
-        cursor-pointer" @click="goToProject">
-      {{ $t(this.obj.link) }}
+    <div class="my-10">
+      <div v-for="i in this.obj.link" v-bind:key="i">
+        <div className="text-justify px-2
+          m-auto max-w-[60rem]
+          underline hover:text-blue-500
+          cursor-pointer" @click="goToProject(i)">
+          {{ i }}
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -60,8 +64,8 @@ export default {
     makeImageFull() {
       this.fullScreen = !this.fullScreen;
     },
-    goToProject() {
-      window.open(this.$t(this.obj.link), '_blank');
+    goToProject(linkUtilizado) {
+      window.open(linkUtilizado, '_blank');
     },
   },
   setup() {
