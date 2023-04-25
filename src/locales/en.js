@@ -35,7 +35,7 @@ export const en = {
     about: {
       textOne: 'Hello! Im Bernardo Davoglio, Im currently 21 years old, I live in Curitiba/PR, Ive been a programmer for over 5 years, with a great current focus on Web development, both Front-End and Back-End, but not limited to this type of web development. system, being able to increase the range of opportunities in which I work.',
       textTwo: 'Since before my graduation in Chemical Engineering at the Federal University of Paraná in 2020, I already had a great passion for systems development, Python being the programming language which I had my first contact and learning. I believe it was the best start in studies, due to the ease of study that Python provides, and the accessibility in which Python manages to teach Programming Logic.',
-      textThree: 'I believe that, as much as I dont have the ease of having years of experience in companies in the field in my curriculum, I am comfortable with the development of programs, being able to compensate for the lack of professional experience with hard work and dedication, two pillars that I built throughout my education. This website shows that, even though I dont have an enviable curriculum, years of experience behind me, or even diplomas that support any narrative I have, I prove through this website that, at least, I have the necessary dedication for any service.',
+      textThree: 'I am comfortable with the development of programs, and giving the maximum of hard work and dedication, two pillars that I built all my education. The present site shows that, at least, I have the necessary dedication for any service.',
       readMore: 'Read About',
     },
     portfolio: {
