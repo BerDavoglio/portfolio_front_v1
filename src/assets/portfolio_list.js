@@ -50,7 +50,7 @@ export default [
   {
     title: 'portfolio.project_adx.title',
     subtitle: 'portfolio.project_adx.subtitle',
-    image: ['14U8-Km95TxHHjIjxbUjavTZ3wH7JV-O', '1SvvpgCNG-iQAVZE9TK4fHfXotkojVdGj', '1I4tdvS48X-MjFKkcNxJfJSmrZXr1D1xX', '1XysSl86cWe7_nyjahsgWTpgXgdgCuVdh', '1QEEcdx5qhGTmTlRJ_Auzlk1NBvLVL3ls'],
+    image: ['14U8-Km95TxHHjIjxbUjavTZ3wH7JV-Oz', '1SvvpgCNG-iQAVZE9TK4fHfXotkojVdGj', '1I4tdvS48X-MjFKkcNxJfJSmrZXr1D1xX', '1XysSl86cWe7_nyjahsgWTpgXgdgCuVdh', '1QEEcdx5qhGTmTlRJ_Auzlk1NBvLVL3ls'],
     descriptionOne: 'portfolio.project_adx.descriptionOne',
     descriptionTwo: 'portfolio.project_adx.descriptionTwo',
     link: ['https://github.com/BerDavoglio/adx_front_public', 'https://github.com/BerDavoglio/adx_front_adm', 'https://github.com/BerDavoglio/adx_backend'],
