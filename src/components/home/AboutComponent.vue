@@ -4,7 +4,7 @@
   <div class="about">
     <div :className="[
       'grid bg-js_bg bg-center bg-gray-500 bg-no-repeat w-full '
-      + (haveFoto ? 'grid-cols-2 h-[42rem]' : 'grid-cols-1 h-[60rem]')]">
+      + (haveFoto ? 'grid-cols-2' : 'grid-cols-1')]">
       <img alt="" src="../../assets/images/ber_foto_1.jpeg" :className="
         ['cursor-pointer object-cover w-[70%] mx-auto rounded-3xl ring ring-pink-500 ring-offset-4 ring-offset-cyan-500 '
           + (haveFoto ? 'my-10 h-[85%]' : 'mt-10 h-64')]" @click="makeImageFull" />
@@ -15,7 +15,7 @@
       <div>
         <div className="
                   text-white text-justify
-                  w-[75%] h-[32rem]
+                  w-[75%] h-[36rem]
                   rounded-md
                   mt-10 mx-auto p-4
                   bg-gray-900/75
@@ -24,7 +24,7 @@
           <p>{{ $t('home.about.textTwo') }}</p>
           <p>{{ $t('home.about.textThree') }}</p>
       </div>
-        <div className="ml-[12.5%]
+        <div className="ml-[12.5%] mb-10
                   w-32 bg-red-700 text-white p-2 mt-4 rounded-md hover:bg-red-800
                   active:bg-red-900 cursor-pointer" @click="goPage('about')">
           {{ $t('home.about.readMore') }}

@@ -139,9 +139,16 @@ export const en = {
     project_adx: {
       title: 'Project "ADX" - Mini E-commerce',
       subtitle:
-        'Website/Backend desenvolvido para a Empresa ADX, como forma de processo seletivo. O sistema tem como foco demonstrar as minhas capacidades de realização de tarefas, bem como o deploy da aplicação.',
+        'Website/Backend developed for ADX Company, as a form of selection process. The system is focused on demonstrating my abilities to perform tasks, as well as deploying the application.',
       descriptionOne: '',
       descriptionTwo: 'JavaScript (VueJS/NuxtJS/TailWind),JavaScript (NodeJS/NestJS)',
+    },
+    project_apply: {
+      title: 'Project "Apply" - API Consumption',
+      subtitle:
+        'Website developed for the company Cross-Commerce as a form of selection process. The website basically consists of consuming an API with the list of potential customers, in which it needed to apply filters and get the customers directed to the filter.',
+      descriptionOne: 'The selection process consisted of the development of an interface that lists potential customer contacts (leads) provided by an API previously informed, considering that this was a Front-End vacancy. The screen should provide useful information that facilitates communication between the company and the customer.',
+      descriptionTwo: 'JavaScript (VueJS)',
     },
   },
   contact: {

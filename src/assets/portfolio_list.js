@@ -48,12 +48,20 @@ export default [
     link: ['https://github.com/BerDavoglio/freela_grz_employees'],
   },
   {
+    title: 'portfolio.project_apply.title',
+    subtitle: 'portfolio.project_apply.subtitle',
+    image: ['1aLXM1gM3lEGwpMn4tJz_srCj4JjNyx6_'],
+    descriptionOne: 'portfolio.project_apply.descriptionOne',
+    descriptionTwo: 'portfolio.project_apply.descriptionTwo',
+    link: ['https://github.com/BerDavoglio/select_apply'],
+  },
+  {
     title: 'portfolio.project_adx.title',
     subtitle: 'portfolio.project_adx.subtitle',
     image: ['14U8-Km95TxHHjIjxbUjavTZ3wH7JV-Oz', '1SvvpgCNG-iQAVZE9TK4fHfXotkojVdGj', '1I4tdvS48X-MjFKkcNxJfJSmrZXr1D1xX', '1XysSl86cWe7_nyjahsgWTpgXgdgCuVdh', '1QEEcdx5qhGTmTlRJ_Auzlk1NBvLVL3ls'],
     descriptionOne: 'portfolio.project_adx.descriptionOne',
     descriptionTwo: 'portfolio.project_adx.descriptionTwo',
-    link: ['https://github.com/BerDavoglio/adx_front_public', 'https://github.com/BerDavoglio/adx_front_adm', 'https://github.com/BerDavoglio/adx_backend'],
+    link: ['https://github.com/BerDavoglio/adx_front_public', 'https://adx-front-public-e4lq.vercel.app/', 'https://github.com/BerDavoglio/adx_front_adm', 'https://adx-front-adm.vercel.app/', 'https://github.com/BerDavoglio/adx_backend'],
   },
   {
     title: 'portfolio.project_yle.title',
@@ -77,6 +85,14 @@ export default [
     descriptionOne: 'portfolio.project_cdedaeq.descriptionOne',
     descriptionTwo: 'portfolio.project_cdedaeq.descriptionTwo',
     link: [''],
+  },
+  {
+    title: 'portfolio.project_v1k1z.title',
+    subtitle: 'portfolio.project_v1k1z.subtitle',
+    image: ['17pWrWhJ4Y7X04VyFkGnnoRVyPf3tEp2j'],
+    descriptionOne: 'portfolio.project_v1k1z.descriptionOne',
+    descriptionTwo: 'portfolio.project_v1k1z.descriptionTwo',
+    link: ['https://github.com/BerDavoglio/projeto_v1k1z'],
   },
   {
     title: 'portfolio.project_portifoliov1.title',
@@ -130,13 +146,5 @@ export default [
     descriptionOne: 'portfolio.project_bsh.descriptionOne',
     descriptionTwo: 'portfolio.project_bsh.descriptionTwo',
     link: [''],
-  },
-  {
-    title: 'portfolio.project_v1k1z.title',
-    subtitle: 'portfolio.project_v1k1z.subtitle',
-    image: ['17pWrWhJ4Y7X04VyFkGnnoRVyPf3tEp2j'],
-    descriptionOne: 'portfolio.project_v1k1z.descriptionOne',
-    descriptionTwo: 'portfolio.project_v1k1z.descriptionTwo',
-    link: ['https://github.com/BerDavoglio/projeto_v1k1z'],
   },
 ];

@@ -144,11 +144,18 @@ export const pt_BR = {
       descriptionTwo: 'JavaScript (VueJS)',
     },
     project_adx: {
-      title: 'Projeto "ADX" - Mini E-commerce',
+      title: 'Project "ADX" - Mini E-commerce',
       subtitle:
         'Website/Backend desenvolvido para a Empresa ADX, como forma de processo seletivo. O sistema tem como foco demonstrar as minhas capacidades de realização de tarefaz, bem como o deploy da aplicação.',
-      descriptionOne: '',
+      descriptionOne: 'The focus of the project was the development of a Mini E-Commerce, obtaining two sites, a "Público", in which it could find the products for sale, and a shopping cart, in which the selected products would go. On the "Administrator" site, new products could be registered, as well as edited and deleted.',
       descriptionTwo: 'JavaScript (VueJS/NuxtJS/TailWind),JavaScript (NodeJS/NestJS)',
+    },
+    project_apply: {
+      title: 'Projeto "Apply" - Consulta de API',
+      subtitle:
+        'Website desenvolvido para a empresa Cross-Commerce como forma de processo seletivo. O website consiste basicamente consumindo uma API com a listagem de clientes em potencial, na qual precisava aplicar filtros e obter os clientes dirigidos ao filtro.',
+      descriptionOne: 'O processo seletivo se consistiu no desenvolvimento de uma interface que liste os contatos de clientes em potencial (leads) fornecidos por uma API já informada anteriormente, tendo em vista que essa era uma vaga Front-End. A tela devia fornecer informações úteis que facilitem a comunicação entre a empresa e o cliente.',
+      descriptionTwo: 'JavaScript (VueJS)',
     },
   },
   contact: {
