@@ -15,11 +15,11 @@
       <div>
         <div className="
                   text-white text-justify
-                  w-[75%] h-[36rem]
+                  w-[75%] h-[34rem]
                   rounded-md
                   mt-10 mx-auto p-4
                   bg-gray-900/75
-                  overflow-y-scroll scrollbar">
+                  flex flex-col justify-between">
           <p>{{ $t('home.about.textOne') }}</p>
           <p>{{ $t('home.about.textTwo') }}</p>
           <p>{{ $t('home.about.textThree') }}</p>

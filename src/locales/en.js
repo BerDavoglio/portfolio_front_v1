@@ -25,17 +25,10 @@ export const en = {
     contact: 'Contact',
   },
   home: {
-    share: {
-      title: 'Project Highlight',
-      description_1: 'Project B1L3Lab: Scientific Initiation Project in which it was developed at the Federal University of Paraná by the entity Ciência é para Todos, with the objective of creating an IoT device for the safety of cyclists around Brazil. In addition to the development of the software shown in the images, the Scientific Initiation project also included the development of an IoT (Internet of Things) platform to be able to collect data during the use of cyclists.',
-      description_2: 'Project Check - Acesso Fácil: Precursor of the Check UFPR application, which aimed to be able to map any contact of people with others infected with COVID-19 within the Veterinary Hospital of UFPR Curitiba. Project developed during the 2020 pandemic, which was widely accepted by the university’s rectory, and which was later expanded and actively used during the return to school at the university during the years 2021 and 2022.',
-      description_3: 'Project Controle de Funcionários: Website developed for the company Grupo Risco Zero, in which they had difficulty with mapping and controlling the hours worked by employees. As an automated alternative, a website with a Back-End server was proposed to make all employee entries, as well as the accounting of hours worked and the total amount of payment.',
-      readMore: 'Read About',
-    },
     about: {
-      textOne: 'Hello! Im Bernardo Davoglio, Im currently 21 years old, I live in Curitiba/PR, Ive been a programmer for over 5 years, with a great current focus on Web development, both Front-End and Back-End, but not limited to this type of web development. system, being able to increase the range of opportunities in which I work.',
-      textTwo: 'Since before my graduation in Chemical Engineering at the Federal University of Paraná in 2020, I already had a great passion for systems development, Python being the programming language which I had my first contact and learning. I believe it was the best start in studies, due to the ease of study that Python provides, and the accessibility in which Python manages to teach Programming Logic.',
-      textThree: 'I am comfortable with the development of programs, and giving the maximum of hard work and dedication, two pillars that I built all my education. The present site shows that, at least, I have the necessary dedication for any service.',
+      textOne: "Hello! I'm Bernardo Davoglio, a 22-year-old programmer residing in Curitiba, Paraná. With over 5 years of programming experience, my current focus lies prominently in both Front-End and Back-End web development. However, my expertise extends beyond conventional web development, embracing a broader system-oriented approach that widens the spectrum of opportunities in my professional endeavors.",
+      textTwo: 'Even before embarking on my Engineering journey at the Federal University of Paraná in 2020, my passion for systems development was well-rooted. Python, as my first programming language, marked the inception of my coding journey. I consider it an ideal starting point due to its user-friendly nature and its effectiveness in imparting Programming Logic—a foundation crucial for any programmer.',
+      textThree: 'Proficient in program development, I approach my work with unwavering commitment and diligence—two pillars that have defined my educational journey. This website serves as a testament to my dedication and showcases the level of commitment I bring to every project.',
       readMore: 'Read About',
     },
     portfolio: {
@@ -48,107 +41,71 @@ export const en = {
   about: {
     whos: {
       title: 'Who is?',
-      description: 'Bernardo Davoglio, student in Chemical Engineering at the Federal University of Paraná (2020 - Currently), currently 21 years old and more than 5 years studying programming. Within all the years of college, Ive lived incredible experiences, such as living for 2 months in Cairo/Egypt, with the intention of participating in a voluntary work program in systems development; in addition to having also lived and worked in Orlando/Florida at the Walt Disney World Company, in which my main objective was the development of my English skills, the increase in interpersonal and client treatment tools, in addition to being able to have a unique experience, with training in the largest service company in the world.',
+      description: "Bernardo Davoglio, an Engineering student at the Federal University of Paraná since 2020, currently aged 22, with a rich background of over 5 years dedicated to studying programming. Throughout my college journey, I've immersed myself in remarkable experiences. For instance, I spent two months in Cairo, Egypt, participating in a voluntary work program focused on systems development. Additionally, I had the privilege of living and working in Orlando, Florida, at the Walt Disney World Company. During this time, my primary goals were to enhance my English proficiency, refine interpersonal and client relations skills, and partake in a unique and invaluable experience. These diverse experiences have greatly enriched my academic and personal growth.",
     },
     tecnologies: {
       title: 'Which technologies can I work with?',
-      description: 'In addition to having knowledge in the area of Front-End web development, such as skills in HTML/CSS, pure JavaScript and their frameworks aimed at Front-End development (React and Vue, the latter used to make this website) , pure PHP and its Blade framework, I can also mention the knowledge in Back-End development, being able to mention the main platforms being NodeJS and Laravel, JavaScript and PHP respectively. Leaving the scope of Web development, I can also mention the knowledge in systems development, being able to mention the knowledge in Python, C++, C#, among others; I can also mention the range of knowledge going to the area of ​​game development for the Unity and Unreal platform, in which I have some course certificates proving the skills in question. In the items allocated below will be the programming languages ​​and their frameworks known to me (It is worth noting that, due to full knowledge in Logic Programming, any knowledge, in any language, can be acquired!):',
+      description: "In addition to my expertise in Front-End web development, encompassing skills in HTML/CSS, pure JavaScript, and frameworks dedicated to Front-End development such as React and Vue (the latter being used for this website), I bring a robust skill set in Back-End development. My proficiency extends to major platforms, including NodeJS and Laravel, leveraging JavaScript and PHP, respectively. Beyond the realm of web development, my capabilities span across systems development. I command proficiency in a variety of languages such as Python, C++, and C#. Expanding further, my knowledge extends into the realm of game development for both the Unity and Unreal platforms. I hold course certificates validating my expertise in these domains. The following section outlines the programming languages and frameworks within my repertoire. It's important to note that my comprehensive understanding of Logic Programming allows me to acquire proficiency in any language, further expanding the scope of my skills.",
+    },
+    additional: {
+      title: 'Additional Informations',
+      textOne: 'In addition to my academic pursuits, my professional journey reflects a diverse range of experiences. I embarked on a project to develop an internal system for a personal security company—a task that not only honed my technical skills but also provided valuable insights into the intricacies of system management. This experience, while challenging, further solidified my passion for creating solutions that streamline and enhance operational processes.',
+      textTwo: "In my freelancing ventures, I had the opportunity to contribute to mental health care by developing an internal system for a psychiatrist clinic. This project underscored the importance of user-centric design, providing clients with a seamless experience while offering administrators powerful tools for efficient clinic management. The system's dual functionality, serving both clients and administrators, exemplifies my commitment to accessibility and efficiency in mental health care management.",
+      textThree: 'Venturing into the realm of mobile applications, I conceptualized and developed an app dedicated to monitoring the safety of bicycle transportation. This innovative app, integrated with an IoT device, aimed to collect crucial data such as distance from cars, potential danger levels, air humidity, and sound decibels. The app not only showcased my technical proficiency but also reflected a commitment to leveraging technology for the betterment of everyday experiences.',
     },
   },
   portfolio: {
     tec: 'Technologies Used',
     readMore: 'Click on the card to see more!',
     project_b1k3: {
-      title: 'Project "B1K3Lab"',
-      subtitle: 'Application development, along with its integration with an IoT device, with the purpose of collecting data while using bicycles as a standard form of transport.',
-      descriptionOne: 'The idea came from another project already developed, in which the purpose would be the implementation of the Flutter framework, in the PWA model, and we also aimed at the ease with which any expansion could be made after the application was launched. In addition to the development of the Front-End of the same, demonstrated by the images above, the Back-End was also developed to support and process all the data collected by the application, together with the IoT device.',
-      descriptionTwo: 'Dart (Flutter),JavaScript (NodeJS),PostgresSQL',
-    },
-    project_battery: {
-      title: 'Project "BatteryTest"',
-      subtitle: 'Application developed during my work experience at ByteRain, which aimed to demonstrate quantitatively the difference between battery consumption between the GPS and the accelerometer of the cell phone.',
-      descriptionOne: '',
-      descriptionTwo: 'Dart (Flutter)',
-    },
-    project_bsh: {
-      title: 'Project "BSHNews"',
-      subtitle: 'Application of an Indian newspaper company, which consists of a Hub of websites to share news, in which there was already a version 1 application that they wanted to improve its functioning, using other development platforms.',
-      descriptionOne: '',
-      descriptionTwo: 'Dart (Flutter)',
+      title: 'Freelancer - B1K3L4B',
+      subtitle: 'In the realm of bicycle transportation, an innovative app was developed to prioritize safety through IoT integration. This application connects with an IoT device, calibrates sensors, and monitors various parameters, envisioning a community for users to share valuable safety data. Tailored for every adult cyclist, the app aims to create a safer environment for biking while fostering collaboration with UFPR College.',
+      tecnologies: 'Flutter,NodeJS,Postgres',
     },
     project_cdedaeq: {
-      title: 'Project "Controle de Estoque (DAEQ)"',
-      subtitle: 'Computer application developed for the Academic Directory of Chemical Engineering at UFPR, which aimed to control the stock of its products, and also an automated way to carry out sales.',
-      descriptionOne: '',
-      descriptionTwo: 'JavaScript (VueJS/NodeJS),PostgresSLQ',
+      title: 'Freelancer - Controle de Estoque DAEQ',
+      subtitle: "I crafted a stock control app specifically for a college entity, streamlining their sales and inventory management processes. It focused on optimizing sales efficiency while maintaining accurate stock levels, tailored to meet the company's specific needs.",
+      tecnologies: 'Flutter,NodeJS,Postgres',
     },
     project_checkaf: {
-      title: 'Project "Check - Acesso Fácil"',
-      subtitle: 'Precursor of the Check UFPR application, which aimed to be able to map any contact of people with others infected with COVID-19 within the Veterinary Hospital of UFPR Curitiba. Project developed during the 2020 pandemic, which was widely accepted by the universitys rectory, and which was later expanded and actively used during the universitys return to school during the years 2021 and 2022.',
-      descriptionOne: '',
-      descriptionTwo: 'Dart (Flutter),JavaScript (NodeJS),MariaDB',
-    },
-    project_comida: {
-      title: 'Project "Comida"',
-      subtitle: 'Application developed during the study of Flutter.',
-      descriptionOne: '',
-      descriptionTwo: 'Dart(Flutter)',
-    },
-    project_dispesas: {
-      title: 'Project "Dispesas"',
-      subtitle: 'Application developed during the study of Flutter.',
-      descriptionOne: '',
-      descriptionTwo: 'Dart(Flutter)',
-    },
-    project_portifoliov1: {
-      title: 'Project "Portifólio (Protótipo)"',
-      subtitle: 'Version 1 of the website in question was designed in order to present the developed Projects and also have an e-commerce of websites already developed, but modular, so that there is a sale and a quick implementation for the user.',
-      descriptionOne: '',
-      descriptionTwo: 'JavaScript (VueJS/NodeJS)',
-    },
-    project_websitedanki: {
-      title: 'Project "Site - Dunki"',
-      subtitle: 'Website developed using the knowledge acquired by the DunkiCode online course platform, using the simplest forms of HTML and CSS, proving that it is not necessary to use extremely powerful frameworks to have an interesting performance for the website.',
-      descriptionOne: '',
-      descriptionTwo: 'HTML,CSS,PHP',
-    },
-    project_grz: {
-      title: 'Project "Controle de Funcionário"',
-      subtitle: 'Website developed for the company Grupo Risco Zero, in which they had a difficulty regarding the mapping and control of the hours worked by the employees. As an automated alternative, a website with a Back-End server was proposed to make all employee entries, as well as the accounting of hours worked and the total amount of payment.',
-      descriptionOne: '',
-      descriptionTwo: 'HTML,CSS,JavaScript,PHP',
-    },
-    project_stocktrade: {
-      title: 'Project "StockTrade"',
-      subtitle: 'Application developed during the study of VueJS.',
-      descriptionOne: '',
-      descriptionTwo: 'JavaScript (VueJS)',
-    },
-    project_yle: {
-      title: 'Project "Youth Loves Egypth"',
-      subtitle: 'Concept Design of a website in support of COP26, a climate conference that will be held in the ancient capital of Egypt, Cairo, in order to discuss the advances of humanity since the last congresses on the subject. This website is part of the volunteer work I did while living in Egypt.',
-      descriptionOne: '',
-      descriptionTwo: 'HTML,CSS',
-    },
-    v1k1z: {
-      title: 'Project "V1k1z"',
-      subtitle: 'Website developed for the Council of Students of the Technology Sector - CESETE, with a focus on usability for users and members of atlética C7.',
-      descriptionOne: '',
-      descriptionTwo: 'JavaScript (VueJS)',
+      title: 'Freelancer - Check/Acesso Fácil',
+      subtitle: 'In response to the challenges posed by the COVID-19 pandemic, an application was created to enhance safety within college campuses. This app controls student entry and exit through QR codes, automating contact tracing in the event of a positive case. Anticipating a substantial daily user base, the app caters to college students and employees, providing a robust solution recognized by the college headmaster.',
+      tecnologies: 'Flutter,NodeJS,MariaDB',
     },
     project_adx: {
-      title: 'Project "ADX" - Mini E-commerce',
-      subtitle:
-        'Website/Backend developed for ADX Company, as a form of selection process. The system is focused on demonstrating my abilities to perform tasks, as well as deploying the application.',
-      descriptionOne: '',
-      descriptionTwo: 'JavaScript (VueJS/NuxtJS/TailWind),JavaScript (NodeJS/NestJS)',
+      title: 'Application - ADX Mini E-commerce',
+      subtitle: 'Crafted for aspiring entrepreneurs, the E-commerce template in my model seamlessly blends functionality and aesthetics, offering a secure and user-friendly platform for online transactions. Its flexible code empowers individuals to effortlessly launch and manage their online stores.',
+      tecnologies: 'VueJS,NuxtJS,NodeJS,NestJS',
     },
-    project_apply: {
-      title: 'Project "Apply" - API Consumption',
-      subtitle:
-        'Website developed for the company Cross-Commerce as a form of selection process. The website basically consists of consuming an API with the list of potential customers, in which it needed to apply filters and get the customers directed to the filter.',
-      descriptionOne: 'The selection process consisted of the development of an interface that lists potential customer contacts (leads) provided by an API previously informed, considering that this was a Front-End vacancy. The screen should provide useful information that facilitates communication between the company and the customer.',
-      descriptionTwo: 'JavaScript (VueJS)',
+    project_psy: {
+      title: 'Freelancer - Angimed',
+      subtitle: 'A sophisticated app was designed to streamline the internal processes of a psychiatrist clinic, catering to both clients and administrators. It seamlessly connects clients with doctors, incorporates a sensor calibration feature, and introduces a rewards system for clients. Meanwhile, administrators enjoy a suite of tools for efficient doctor management and appointment creation. Developed in collaboration with UFPR College, this app caters to the diverse needs of clinic stakeholders.',
+      tecnologies: 'VueJS,NodeJS,Postgress',
+    },
+    project_websitedanki: {
+      title: 'Application - Geral Website',
+      subtitle: 'The General Website template serves as a versatile canvas, accommodating a range of content from personal blogs to professional portfolios. Its clean and adaptable design, coupled with structured code, invites users to shape an online space that reflects their unique identity and goals.',
+      tecnologies: 'HTML,CSS,PHP',
+    },
+    project_grz: {
+      title: 'Freelancer - Grupo Risco-Zero',
+      subtitle: "In one of my early freelance projects, I created an Admin panel for a personal security company's internal system. It streamlined the logging of workers and their monthly working hours, enhancing operational efficiency. This project marked my introduction to freelancing, offering valuable lessons and solidifying my passion for programming.",
+      tecnologies: 'HTML,CSS,PHP,NodeJS,MariaDB',
+    },
+    project_noticias: {
+      title: 'Application - Newsletter',
+      subtitle: 'Designed for content creators and organizations, the Newsletter template provides an intuitive platform for crafting and disseminating newsletters. Its user-friendly layout, coupled with efficient code, facilitates seamless communication and connection with subscribers.',
+      tecnologies: 'VueJS,NodeJS,Postgress',
+    },
+    project_stocktrade: {
+      title: 'Application - StockTrade',
+      subtitle: 'Navigating the financial landscape, the Stock Trade template is tailored for individuals entering the world of online trading. With real-time market data integration and a user-friendly interface, it empowers users to explore and engage with the complexities of stock trading, offering a robust foundation for financial endeavors.',
+      tecnologies: 'VueJS,NodeJS,Postgress',
+    },
+    project_yle: {
+      title: 'Freelancer - Youth Loves Egypth',
+      subtitle: 'During a stint in Egypt, a website design concept emerged as a testament to the global significance of COP26. This digital platform strives to educate and engage individuals interested in COP26, offering comprehensive explanations on participating countries, potential consequences, and more. Designed with interactivity in mind, the platform transcends geographical boundaries, reflecting a commitment to fostering a global perspective on climate-related challenges.',
+      tecnologies: 'HTML,CSS',
     },
   },
   contact: {

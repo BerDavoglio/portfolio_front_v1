@@ -70,92 +70,92 @@ export const pt_BR = {
       title: 'Projeto "B1K3Lab"',
       subtitle:
         'Desenvolvimento de aplicativo, juntamente com a integração do mesmo com um dispositivo IoT, com a finalidade de coleta de dados durante a utilização de bicicletas como forma de transporte padrão.',
-      descriptionOne:
+      description:
         'A ideia surgiu a partir de outro projeto ja desenvolvido, no qual a finalidade seria a implementação do framework Flutter, no modelo PWA, e também visamos a facilidade no qual qualquer expansão poderia ser feita posteriormente ao lançamento do aplicativo. Além do desenvolvimento do Front-End do mesmo, demonstrada pelas imagens a cima, também foi realizado o desenvolvimento do Back-End para suportar e tratar todos os dados coletados pelo aplicativo, junto com o dispositivo IoT.',
-      descriptionTwo: 'Dart (Flutter),JavaScript (NodeJS),PostgresSQL',
+      tecnologies: 'Dart (Flutter),JavaScript (NodeJS),PostgresSQL',
     },
     project_battery: {
       title: 'Projeto "BatteryTest"',
       subtitle:
         'Aplicativo desenvolvido durante minha experiência de trabalho na empresa ByteRain, que tinha como objetivo demonstrar quantivamente a diferênça entre o consumo de bateria entre o GPS e o Acelerômetro do celular.',
-      descriptionOne: '',
-      descriptionTwo: 'Dart (Flutter)',
+      description: '',
+      tecnologies: 'Dart (Flutter)',
     },
     project_bsh: {
       title: 'Projeto "BSHNews"',
       subtitle:
         'Aplicativo de uma empresa jornalistica Indiana, que consiste em um Hub de websites para compartilhar notícias, na qual já havia um aplicativo versão 1 que queriam melhorar seu funcionamento, utilizando outras plataformas de desenvolvimento.',
-      descriptionOne: '',
-      descriptionTwo: 'Dart (Flutter)',
+      description: '',
+      tecnologies: 'Dart (Flutter)',
     },
     project_cdedaeq: {
       title: 'Projeto "Controle de Estoque (DAEQ)"',
       subtitle:
         'Aplicativo de computador desenvolvido para o Diretório Acadêmico de Engenharia Química da UFPR, na qual tinha como objetivo o controle de estoque de seus produtos, e também uma forma automatizada para a realização das vendas.',
-      descriptionOne: '',
-      descriptionTwo: 'JavaScript (VueJS/NodeJS),PostgresSLQ',
+      description: '',
+      tecnologies: 'JavaScript (VueJS/NodeJS),PostgresSLQ',
     },
     project_checkaf: {
       title: 'Projeto "Check - Acesso Fácil"',
       subtitle:
         'Precursor do aplicativo Check UFPR, que teve como o objetivo de conseguir mapear qualquer contato de pessoas com outras infectadas com COVID-19 dentro do Hospital Veterinário da UFPR Curitiba. Projeto desenvolvido durante a pandemia de 2020, no qual teve uma grande aceitação por parte da reitoria da universidade, e que posteriormente foi expandido e utilizado ativamente durante a volta as aulas à universidade durante os anos de 2021 e 2022.',
-      descriptionOne: '',
-      descriptionTwo: 'Dart (Flutter),JavaScript (NodeJS),MariaDB',
+      description: '',
+      tecnologies: 'Dart (Flutter),JavaScript (NodeJS),MariaDB',
     },
     project_portifoliov1: {
       title: 'Projeto "Portifólio (Protótipo)"',
       subtitle:
         'Versão 1 do website em questão, foi idealizado de forma à apresentar os projetos desenvolvidos e também possuir um e-commerce de websites já desenvolvidos, porém modulares, para que haja uma venda e uma implementação rápida para o usuário.',
-      descriptionOne: '',
-      descriptionTwo: 'JavaScript (VueJS/NodeJS)',
+      description: '',
+      tecnologies: 'JavaScript (VueJS/NodeJS)',
     },
     project_websitedanki: {
       title: 'Projeto "Site - Dunki"',
       subtitle:
         'Website desenvolvido utilizando os conhecimentos adquiridos pela plataforma de cursos online DunkiCode, utilizando as formas mais simples de HTML e CSS, provando que não é necessário utilizar frameworks extremamente potentes para haver um desempenho interessante para o website.',
-      descriptionOne: '',
-      descriptionTwo: 'HTML,CSS,PHP',
+      description: '',
+      tecnologies: 'HTML,CSS,PHP',
     },
     project_grz: {
       title: 'Projeto "Controle de Funcionário"',
       subtitle:
         'Website desenvolvido para empresa Grupo Risco Zero, no qual apresentaram uma dificuldade com relação ao mapeamento e controle das horas trabalhadas pelos funcionários. Como alternativa automatizada, foi proposto um website com servidor Back-End para fazer todas as entradas de funcionários, bem como a contabilização de horas trabalhadas e o valor total de pagamento.',
-      descriptionOne: '',
-      descriptionTwo: 'HTML,CSS,JavaScript,PHP',
+      description: '',
+      tecnologies: 'HTML,CSS,JavaScript,PHP',
     },
     project_stocktrade: {
       title: 'Projeto "StockTrade"',
       subtitle: 'Aplicativo desenvolvido durante o estudo de VueJS.',
-      descriptionOne: '',
-      descriptionTwo: 'JavaScript (VueJS)',
+      description: '',
+      tecnologies: 'JavaScript (VueJS)',
     },
     project_yle: {
       title: 'Projeto "Youth Loves Egypth"',
       subtitle:
         'Concept Design de um website em prol da COP26, conferência climática que será realizado na antiga capital do Egito, Cairo, a fim de discutir os avanços da humanidade desde os últimos congressos sobre o tema. Esse website compõe o trabalho voluntário que realizei enquanto morava no Egito.',
-      descriptionOne: '',
-      descriptionTwo: 'HTML,CSS',
+      description: '',
+      tecnologies: 'HTML,CSS',
     },
     project_v1k1z: {
       title: 'Projeto "V1k1z"',
       subtitle:
         'Website desenvolvido para o Conselho dos Estudantes do Setor de Tecnologia - CESETE, com o foco na usabilidade dos usuários e sócios da atlética C7.',
-      descriptionOne: '',
-      descriptionTwo: 'JavaScript (VueJS)',
+      description: '',
+      tecnologies: 'JavaScript (VueJS)',
     },
     project_adx: {
       title: 'Project "ADX" - Mini E-commerce',
       subtitle:
         'Website/Backend desenvolvido para a Empresa ADX, como forma de processo seletivo. O sistema tem como foco demonstrar as minhas capacidades de realização de tarefaz, bem como o deploy da aplicação.',
-      descriptionOne: 'The focus of the project was the development of a Mini E-Commerce, obtaining two sites, a "Público", in which it could find the products for sale, and a shopping cart, in which the selected products would go. On the "Administrator" site, new products could be registered, as well as edited and deleted.',
-      descriptionTwo: 'JavaScript (VueJS/NuxtJS/TailWind),JavaScript (NodeJS/NestJS)',
+      description: 'The focus of the project was the development of a Mini E-Commerce, obtaining two sites, a "Público", in which it could find the products for sale, and a shopping cart, in which the selected products would go. On the "Administrator" site, new products could be registered, as well as edited and deleted.',
+      tecnologies: 'JavaScript (VueJS/NuxtJS/TailWind),JavaScript (NodeJS/NestJS)',
     },
     project_apply: {
       title: 'Projeto "Apply" - Consulta de API',
       subtitle:
         'Website desenvolvido para a empresa Cross-Commerce como forma de processo seletivo. O website consiste basicamente consumindo uma API com a listagem de clientes em potencial, na qual precisava aplicar filtros e obter os clientes dirigidos ao filtro.',
-      descriptionOne: 'O processo seletivo se consistiu no desenvolvimento de uma interface que liste os contatos de clientes em potencial (leads) fornecidos por uma API já informada anteriormente, tendo em vista que essa era uma vaga Front-End. A tela devia fornecer informações úteis que facilitem a comunicação entre a empresa e o cliente.',
-      descriptionTwo: 'JavaScript (VueJS)',
+      description: 'O processo seletivo se consistiu no desenvolvimento de uma interface que liste os contatos de clientes em potencial (leads) fornecidos por uma API já informada anteriormente, tendo em vista que essa era uma vaga Front-End. A tela devia fornecer informações úteis que facilitem a comunicação entre a empresa e o cliente.',
+      tecnologies: 'JavaScript (VueJS)',
     },
   },
   contact: {
