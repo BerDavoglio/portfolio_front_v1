@@ -27,7 +27,6 @@ import {
 } from 'oh-vue-icons/icons';
 
 import { createI18n } from 'vue-i18n';
-import { pt_BR } from './locales/pt_BR';
 import { en } from './locales/en';
 
 import router from './router';
@@ -38,12 +37,11 @@ import './assets/tailwind.css';
 import App from './App.vue';
 
 const languages = {
-  pt_BR,
   en,
 };
 const i18n = createI18n({
-  locale: 'pt_BR',
-  fallbackLocale: 'pt_BR',
+  locale: 'en',
+  fallbackLocale: 'en',
   messages: languages,
 });
 

@@ -1,61 +1,38 @@
 <template>
   <div>
-    <Swiper :modules="modules" :space-between="50" navigation :autoplay="{ deplay: 5000 }">
-      <SwiperSlide v-for="obj in objects" v-bind:key="obj">
-        <share-block-component :object=obj></share-block-component>
-      </SwiperSlide>
-    </Swiper>
+    <Carousel :itemsToShow="1"
+              :wrapAround="true"
+              :transition="1000"
+              :autoplay="5000">
+      <Slide v-for="(obj, index) in list"
+             v-bind:key="index">
+        <share-block-component :object=obj :index="index" />
+      </Slide>
+    </Carousel>
   </div>
 </template>
 
 <script>
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import {
-  Navigation,
-} from 'swiper';
+import { Carousel, Slide } from 'vue3-carousel';
+import 'vue3-carousel/dist/carousel.css';
 
 import ShareBlockComponent from './ShareBlockComponent.vue';
-
-// eslint-disable-next-line import/extensions
-import 'swiper/css';
-// eslint-disable-next-line import/extensions
-import 'swiper/css/navigation';
+import PortfolioList from '../../assets/portfolio_list';
 
 export default {
   name: 'ShareComponent',
   components: {
     ShareBlockComponent,
-    Swiper,
-    SwiperSlide,
+    Carousel,
+    Slide,
   },
   data() {
     return {
-      objects: [
-        {
-          image: '1Zlp1csuZYStsNqvhOvAmeQFsAxwjf24X',
-          description: 'home.share.description_1',
-          link: 'portfolio',
-          id: 1,
-        },
-        {
-          image: '15Za159SnbQpJEMUaKHhmj1h-R5pWcACF',
-          description: 'home.share.description_2',
-          link: 'portfolio',
-          id: 2,
-        },
-        {
-          image: '1WQgVEDhPoU_gYTvxeG755-WFYTKt3KbP',
-          description: 'home.share.description_3',
-          link: 'portfolio',
-          id: 3,
-        },
-      ],
+      list: [],
     };
   },
-  setup() {
-    return {
-      modules: [Navigation],
-    };
+  beforeMount() {
+    this.list = PortfolioList;
   },
 };
 </script>

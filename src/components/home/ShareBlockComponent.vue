@@ -9,13 +9,13 @@
         {{ $t('home.share.title') }}:
       </div>
       <div :className="['grid ' + (haveFoto ? 'grid-cols-2' : 'grid-cols-1')]">
-        <img :src="['http://drive.google.com/uc?export=view&id=' + this.object.image]" alt="" className="
+        <img :src="this.object.image[0]" alt="" className="
                     object-cover cursor-pointer
                     h-[22rem] w-[80%]
                     m-auto mt-10 rounded-3xl" @click="makeImageFull">
         <div v-if="this.fullScreen" @click="makeImageFull"
           className="h-full w-full bg-gray-400/50 cursor-pointer fixed left-0 top-0">
-          <img :src="['http://drive.google.com/uc?export=view&id=' + this.object.image]" alt=""
+          <img :src="this.object.image[0]" alt=""
             className=" z-50 object-contain mx-auto py-10 max-h-[40rem]">
         </div>
         <div>
@@ -25,7 +25,7 @@
           <!-- eslint-disable-next-line vuejs-accessibility/click-events-have-key-events -->
           <div className="ml-[30%]
                     w-32 bg-red-700 text-white p-2 mt-4 rounded-md hover:bg-red-800
-                    active:bg-red-900 cursor-pointer" @click="goPage(this.object.link, this.object.id)">
+                    active:bg-red-900 cursor-pointer" @click="goPage(this.object.link[0], this.index)">
             {{ $t('home.share.readMore') }}
           </div>
         </div>
@@ -48,6 +48,7 @@ export default {
   },
   props: {
     object: Object,
+    index: Number,
   },
   methods: {
     onResize() {
