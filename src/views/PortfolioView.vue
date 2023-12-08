@@ -5,8 +5,7 @@
     </div>
   </div>
   <div v-else>
-    <portfolio-full-component :obj="this.portfolio[this.$route.params.id - 1]">
-    </portfolio-full-component>
+    <portfolio-full-component :obj="this.portfolio[this.$route.params.id - 1]" />
   </div>
 </template>
 

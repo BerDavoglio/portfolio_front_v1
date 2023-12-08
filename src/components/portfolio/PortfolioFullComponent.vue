@@ -14,6 +14,10 @@
                           h-[32rem]
                           m-auto mt-10 rounded-3xl">
         </Slide>
+        <template #addons>
+          <Navigation />
+          <Pagination />
+        </template>
       </Carousel>
     </div>
     <div className="text-3xl mx-auto my-10 font-semibold">{{ $t(this.obj.title) }}</div>
@@ -52,7 +56,9 @@
 </template>
 
 <script>
-import { Carousel, Slide } from 'vue3-carousel';
+import {
+  Carousel, Navigation, Pagination, Slide,
+} from 'vue3-carousel';
 import 'vue3-carousel/dist/carousel.css';
 
 export default {
@@ -63,6 +69,8 @@ export default {
   components: {
     Carousel,
     Slide,
+    Pagination,
+    Navigation,
   },
   data() {
     return {
@@ -123,5 +131,11 @@ export default {
 .carousel__slide--active {
   opacity: 1;
   transform: rotateY(0) scale(1.1);
+}
+
+.carousel__prev,
+.carousel__next {
+  box-sizing: content-box;
+  border: 5px solid black;
 }
 </style>

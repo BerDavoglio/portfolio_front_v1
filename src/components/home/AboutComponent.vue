@@ -7,11 +7,7 @@
       + (haveFoto ? 'grid-cols-2' : 'grid-cols-1')]">
       <img alt="" src="../../assets/images/ber_foto_1.jpeg" :className="
         ['cursor-pointer object-cover w-[70%] mx-auto rounded-3xl ring ring-pink-500 ring-offset-4 ring-offset-cyan-500 '
-          + (haveFoto ? 'my-10 h-[85%]' : 'mt-10 h-64')]" @click="makeImageFull" />
-      <div v-if="fullScreen" className="h-full w-full bg-gray-400/50 cursor-pointer fixed left-0 top-0"
-        @click="makeImageFull">
-        <img alt="" src="../../assets/images/ber_foto_1.jpeg" className="w-[42rem] mx-auto z-50" />
-      </div>
+          + (haveFoto ? 'my-10 h-[85%]' : 'mt-10 h-64')]" />
       <div>
         <div className="
                   text-white text-justify
