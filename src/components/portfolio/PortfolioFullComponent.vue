@@ -1,7 +1,7 @@
 <!-- eslint-disable vuejs-accessibility/click-events-have-key-events -->
 <template>
   <div>
-    <Carousel :itemsToShow="1"
+    <Carousel :itemsToShow="1.75"
               :wrapAround="true"
               :transition="1000"
               :autoplay="3000">
