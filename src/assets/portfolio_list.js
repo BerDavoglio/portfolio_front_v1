@@ -49,6 +49,7 @@ export default [
     ],
     tecnologies: 'portfolio.project_psy.tecnologies',
     link: ['https://github.com/BerDavoglio/project_psy/tree/develop'],
+    isCell: false,
   },
   {
     title: 'portfolio.project_checkaf.title',
@@ -94,6 +95,7 @@ export default [
     ],
     tecnologies: 'portfolio.project_checkaf.tecnologies',
     link: ['https://github.com/BerDavoglio/ufpr_appqrcode', 'https://github.com/BerDavoglio/ufpr_appqrcode_backend'],
+    isCell: true,
   },
   {
     title: 'portfolio.project_yle.title',
@@ -134,6 +136,7 @@ export default [
     ],
     tecnologies: 'portfolio.project_yle.tecnologies',
     link: ['https://github.com/BerDavoglio/freela_yle'],
+    isCell: false,
   },
   {
     title: 'portfolio.project_b1k3.title',
@@ -175,6 +178,7 @@ export default [
     ],
     tecnologies: 'portfolio.project_b1k3.tecnologies',
     link: ['https://github.com/BerDavoglio/ufpr_b1k3l4b'],
+    isCell: true,
   },
   {
     title: 'portfolio.project_grz.title',
@@ -208,6 +212,7 @@ export default [
     ],
     tecnologies: 'portfolio.project_grz.tecnologies',
     link: ['https://github.com/BerDavoglio/freela_grz_employees'],
+    isCell: false,
   },
   {
     title: 'portfolio.project_cdedaeq.title',
@@ -226,6 +231,7 @@ export default [
     ],
     tecnologies: 'portfolio.project_cdedaeq.tecnologies',
     link: ['https://github.com/BerDavoglio/daeq-cde'],
+    isCell: false,
   },
   {
     title: 'portfolio.project_noticias.title',
@@ -254,6 +260,7 @@ export default [
     ],
     tecnologies: 'portfolio.project_noticias.tecnologies',
     link: ['https://github.com/BerDavoglio/project_news'],
+    isCell: false,
   },
   {
     title: 'portfolio.project_websitedanki.title',
@@ -280,6 +287,7 @@ export default [
     ],
     tecnologies: 'portfolio.project_websitedanki.tecnologies',
     link: [''],
+    isCell: false,
   },
   {
     title: 'portfolio.project_adx.title',
@@ -307,6 +315,7 @@ export default [
     ],
     tecnologies: 'portfolio.project_adx.tecnologies',
     link: ['https://github.com/BerDavoglio/adx_front_public', 'https://adx-front-public-e4lq.vercel.app/', 'https://github.com/BerDavoglio/adx_front_adm', 'https://adx-front-adm.vercel.app/', 'https://github.com/BerDavoglio/adx_backend'],
+    isCell: false,
   },
   {
     title: 'portfolio.project_stocktrade.title',
@@ -332,5 +341,6 @@ export default [
     ],
     tecnologies: 'portfolio.project_stocktrade.tecnologies',
     link: [''],
+    isCell: false,
   },
 ];

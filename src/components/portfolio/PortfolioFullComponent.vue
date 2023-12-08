@@ -1,18 +1,18 @@
 <!-- eslint-disable vuejs-accessibility/click-events-have-key-events -->
 <template>
   <div>
-    <div className="m-auto my-10 h-[30rem]">
-      <Carousel :itemsToShow="1.75"
+    <div :className="['m-auto my-10 '
+      + (this.isApp ? 'h-[35rem] w-[60rem]' : 'w-[100%]')]">
+      <Carousel :itemsToShow="2.75"
                 :wrapAround="true"
                 :transition="1000"
-                :autoplay="3000"
-                className="h-[30rem]">
+                :autoplay="3000">
         <Slide v-for="(image, index) in this.images"
                :key="index">
           <img :src="[urlLocation.split('portfolio_front_v1')[0] + 'portfolio_front_v1/' + image]"
                alt=""
                className="object-contain cursor-pointer
-                          m-auto mt-10 rounded-3xl">
+                          m-auto mt-10 rounded-3xl h-[30rem]">
         </Slide>
         <template #addons>
           <Navigation />
@@ -76,6 +76,7 @@ export default {
     return {
       images: [],
       urlLocation: '',
+      isApp: false,
     };
   },
   methods: {
@@ -88,6 +89,7 @@ export default {
     this.obj.image.forEach((obj) => {
       this.images.push(obj);
     });
+    this.isApp = this.obj.isCell;
   },
 };
 </script>
