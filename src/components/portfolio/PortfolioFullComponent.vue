@@ -4,15 +4,13 @@
     <Carousel :itemsToShow="1"
               :wrapAround="true"
               :transition="1000"
-              :autoplay="3000"
-              className="bg-gray-300">
+              :autoplay="3000">
       <Slide v-for="(image, index) in this.images"
-             :key="index"
-             className="w-[50%]">
+             :key="index">
         <img :src="[urlLocation.split('portfolio_front_v1')[0] + 'portfolio_front_v1/' + image]"
              alt=""
              className="object-contain cursor-pointer
-                        h-[32rem]
+                        h-[32rem] w-[50%]
                         m-auto mt-10 rounded-3xl">
       </Slide>
     </Carousel>
