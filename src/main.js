@@ -28,6 +28,8 @@ import {
 
 import { createI18n } from 'vue-i18n';
 import { en } from './locales/en';
+import { pt_BR } from './locales/pt_BR';
+import { it_IT } from './locales/it_IT';
 
 import router from './router';
 import store from './store';
@@ -38,6 +40,8 @@ import App from './App.vue';
 
 const languages = {
   en,
+  pt_BR,
+  it_IT,
 };
 const i18n = createI18n({
   locale: 'en',

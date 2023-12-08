@@ -3,7 +3,7 @@
   <div>
     <div :className="['m-auto my-10 '
       + (this.isApp ? 'h-[35rem] w-[60rem]' : 'w-[100%]')]">
-      <Carousel :itemsToShow="2.75"
+      <Carousel :itemsToShow="this.isApp ? 2.75 : 1.75"
                 :wrapAround="true"
                 :transition="1000"
                 :autoplay="3000">
@@ -11,8 +11,8 @@
                :key="index">
           <img :src="[urlLocation.split('portfolio_front_v1')[0] + 'portfolio_front_v1/' + image]"
                alt=""
-               className="object-contain cursor-pointer
-                          m-auto mt-10 rounded-3xl h-[30rem]">
+               :className="['object-contain cursor-pointer m-auto mt-2 rounded-3xl '
+                 + (this.isApp ? 'h-[35rem] w-[60rem]' : 'w-[100%]')]">
         </Slide>
         <template #addons>
           <Navigation />
@@ -27,9 +27,9 @@
          className="my-5">
       <div className="text-xl font-semibold
       text-justify px-2
-          m-auto max-w-[60rem]">{{ i.title }}</div>
+          m-auto max-w-[60rem]">{{ $t(i.title) }}</div>
       <div className="text-justify px-2
-          m-auto max-w-[60rem]">{{ i.text }}</div>
+          m-auto max-w-[60rem]">{{ $t(i.text) }}</div>
     </div>
     <div className="text-justify px-10 m-auto max-w-[60rem] my-10">
       <div className="font-bold text-lg">
@@ -138,6 +138,6 @@ export default {
 .carousel__prev,
 .carousel__next {
   box-sizing: content-box;
-  border: 5px solid black;
+  border: 5px solid white;
 }
 </style>
