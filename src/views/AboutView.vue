@@ -11,7 +11,7 @@
           <img src="../assets/images/ber_foto_1.jpeg"
                alt=""
                className="
-              object-cover
+              object-contain
               h-[22rem] w-[60%]
               m-auto rounded-3xl">
         </Slide>
@@ -20,7 +20,7 @@
           <img src="../assets/images/ber_foto_2.jpeg"
                alt=""
                className="
-              object-cover
+              object-contain
               max-h-[22rem] w-[60%]
               m-auto rounded-3xl">
         </Slide>
@@ -29,7 +29,7 @@
           <img src="../assets/images/ber_foto_3.jpeg"
                alt=""
                className="
-              object-cover
+              object-contain
               max-h-[22rem] w-[60%]
               m-auto rounded-3xl">
         </Slide>
@@ -38,7 +38,7 @@
           <img src="../assets/images/ber_foto_4.jpg"
                alt=""
                className="
-              object-cover
+              object-contain
               max-h-[22rem] w-[60%]
               m-auto rounded-3xl">
         </Slide>

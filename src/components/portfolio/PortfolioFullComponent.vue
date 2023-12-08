@@ -3,23 +3,15 @@
   <div>
     <Carousel :itemsToShow="1"
               :wrapAround="true"
-              :transition="1000">
+              :transition="1000"
+              :autoplay="3000">
       <Slide v-for="(image, index) in this.images"
              :key="index">
         <img :src="[urlLocation.split('portfolio_front_v1')[0] + 'portfolio_front_v1/' + image]"
              alt=""
-             className="
-                        object-cover cursor-pointer
+             className="object-contain cursor-pointer
                         h-[32rem] w-[50%]
-                        m-auto mt-10 rounded-3xl"
-             @click="makeImageFull">
-        <div v-if="this.fullScreen"
-             @click="makeImageFull"
-             className="h-full w-full bg-gray-400/50 cursor-pointer fixed left-0 top-0">
-          <img :src="['http://localhost:8080/portfolio_front_v1/' + image]"
-               alt=""
-               className=" z-50 object-contain mx-auto py-10 max-h-[32rem]">
-        </div>
+                        m-auto mt-10 rounded-3xl">
       </Slide>
     </Carousel>
     <div className="text-3xl mx-auto my-10 font-semibold">{{ $t(this.obj.title) }}</div>
@@ -72,15 +64,11 @@ export default {
   },
   data() {
     return {
-      fullScreen: false,
       images: [],
       urlLocation: '',
     };
   },
   methods: {
-    makeImageFull() {
-      this.fullScreen = !this.fullScreen;
-    },
     goToProject(linkUtilizado) {
       window.open(linkUtilizado, '_blank');
     },
