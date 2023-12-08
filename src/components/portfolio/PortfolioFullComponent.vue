@@ -1,11 +1,12 @@
 <!-- eslint-disable vuejs-accessibility/click-events-have-key-events -->
 <template>
   <div>
-    <div className="m-auto my-10 max-h-[40rem]">
+    <div className="m-auto my-10 h-[30rem]">
       <Carousel :itemsToShow="1.75"
                 :wrapAround="true"
                 :transition="1000"
-                :autoplay="3000">
+                :autoplay="3000"
+                className="h-[30rem]">
         <Slide v-for="(image, index) in this.images"
                :key="index">
           <img :src="[urlLocation.split('portfolio_front_v1')[0] + 'portfolio_front_v1/' + image]"
