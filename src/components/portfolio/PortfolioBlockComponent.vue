@@ -5,7 +5,7 @@
     style="background: linear-gradient(124.09deg, #D157F2 1.58%, #56308C 20.51%,#5D60A6 77.34%, #1F1640 84%);"
     @click="goPage('portfolio', this.index + 1)">
     <img :src=this.obj.image[0] alt=""
-      className="object-cover h-48 w-max m-auto">
+      className="object-contain h-48 w-max m-auto">
     <div className="col-span-3">
       <div className="text-white text-lg font-semibold">{{ $t(this.obj.title) }}</div>
       <div className="h-0.5 max-w-[65rem] m-auto bg-gray-300 my-2"></div>
