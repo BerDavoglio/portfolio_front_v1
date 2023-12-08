@@ -59,7 +59,7 @@ export const en = {
     readMore: 'Click on the card to see more!',
     project_b1k3: {
       title: 'Freelancer - B1K3L4B',
-      subtitle: 'In the realm of bicycle transportation, an innovative app was developed to prioritize safety through IoT integration. This application connects with an IoT device, calibrates sensors, and monitors various parameters, envisioning a community for users to share valuable safety data. Tailored for every adult cyclist, the app aims to create a safer environment for biking while fostering collaboration with UFPR College.',
+      subtitle: 'In the bicycle transportation space, an IoT-integrated app prioritizes safety. It connects with a device, calibrates sensors, and monitors parameters, creating a community for users to share safety data. Tailored for adult cyclists, the app aims to enhance biking safety and promote collaboration with UFPR College.',
       tecnologies: 'Flutter,NodeJS,Postgres',
     },
     project_cdedaeq: {
@@ -69,7 +69,7 @@ export const en = {
     },
     project_checkaf: {
       title: 'Freelancer - Check/Acesso Fácil',
-      subtitle: 'In response to the challenges posed by the COVID-19 pandemic, an application was created to enhance safety within college campuses. This app controls student entry and exit through QR codes, automating contact tracing in the event of a positive case. Anticipating a substantial daily user base, the app caters to college students and employees, providing a robust solution recognized by the college headmaster.',
+      subtitle: 'To address COVID-19 challenges, a campus safety app automates entry/exit with QR codes, streamlining contact tracing. Tailored for students and staff, the app, endorsed by the college headmaster, anticipates high daily usage.',
       tecnologies: 'Flutter,NodeJS,MariaDB',
     },
     project_adx: {
@@ -79,7 +79,7 @@ export const en = {
     },
     project_psy: {
       title: 'Freelancer - Angimed',
-      subtitle: 'A sophisticated app was designed to streamline the internal processes of a psychiatrist clinic, catering to both clients and administrators. It seamlessly connects clients with doctors, incorporates a sensor calibration feature, and introduces a rewards system for clients. Meanwhile, administrators enjoy a suite of tools for efficient doctor management and appointment creation. Developed in collaboration with UFPR College, this app caters to the diverse needs of clinic stakeholders.',
+      subtitle: 'A sleek clinic app streamlines processes for clients and administrators. It connects clients with doctors, includes sensor calibration, and offers a rewards system. Administrators benefit from efficient doctor management and appointment tools. Developed with UFPR College, it caters to diverse clinic needs.',
       tecnologies: 'VueJS,NodeJS,Postgress',
     },
     project_websitedanki: {
@@ -104,7 +104,7 @@ export const en = {
     },
     project_yle: {
       title: 'Freelancer - Youth Loves Egypth',
-      subtitle: 'During a stint in Egypt, a website design concept emerged as a testament to the global significance of COP26. This digital platform strives to educate and engage individuals interested in COP26, offering comprehensive explanations on participating countries, potential consequences, and more. Designed with interactivity in mind, the platform transcends geographical boundaries, reflecting a commitment to fostering a global perspective on climate-related challenges.',
+      subtitle: 'In Egypt, a website concept emerged, highlighting the global importance of COP26. The platform educates and engages users on participating countries, potential consequences, etc. With interactive design, it transcends borders, emphasizing a commitment to a global perspective on climate challenges.',
       tecnologies: 'HTML,CSS',
     },
   },
