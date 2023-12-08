@@ -1,7 +1,7 @@
 <!-- eslint-disable vuejs-accessibility/click-events-have-key-events -->
 <template>
   <div>
-    <div className="w-[50%]">
+    <div className="m-auto my-10 max-h-[40rem]">
       <Carousel :itemsToShow="1.75"
                 :wrapAround="true"
                 :transition="1000"
@@ -11,7 +11,6 @@
           <img :src="[urlLocation.split('portfolio_front_v1')[0] + 'portfolio_front_v1/' + image]"
                alt=""
                className="object-contain cursor-pointer
-                          h-[32rem]
                           m-auto mt-10 rounded-3xl">
         </Slide>
         <template #addons>
