@@ -1,19 +1,21 @@
 <!-- eslint-disable vuejs-accessibility/click-events-have-key-events -->
 <template>
   <div>
-    <Carousel :itemsToShow="1.75"
-              :wrapAround="true"
-              :transition="1000"
-              :autoplay="3000">
-      <Slide v-for="(image, index) in this.images"
-             :key="index">
-        <img :src="[urlLocation.split('portfolio_front_v1')[0] + 'portfolio_front_v1/' + image]"
-             alt=""
-             className="object-contain cursor-pointer
-                        h-[32rem] w-[50%]
-                        m-auto mt-10 rounded-3xl">
-      </Slide>
-    </Carousel>
+    <div className="w-[50%]">
+      <Carousel :itemsToShow="1.75"
+                :wrapAround="true"
+                :transition="1000"
+                :autoplay="3000">
+        <Slide v-for="(image, index) in this.images"
+               :key="index">
+          <img :src="[urlLocation.split('portfolio_front_v1')[0] + 'portfolio_front_v1/' + image]"
+               alt=""
+               className="object-contain cursor-pointer
+                          h-[32rem]
+                          m-auto mt-10 rounded-3xl">
+        </Slide>
+      </Carousel>
+    </div>
     <div className="text-3xl mx-auto my-10 font-semibold">{{ $t(this.obj.title) }}</div>
     <div className="h-0.5 max-w-[65rem] m-auto bg-gray-300 my-2"></div>
     <div v-for="i in this.obj.description"
