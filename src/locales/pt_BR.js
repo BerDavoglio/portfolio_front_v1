@@ -112,7 +112,7 @@ export const pt_BR = {
     },
     project_psy: {
       title: 'Freelancer - Angimed',
-      subtitle: 'Um aplicativo elegante para clínicas otimiza processos para clientes e administradores. Conecta clientes a médicos, inclui calibração de sensores e oferece um sistema de recompensas. Os administradores se beneficiam da gestão eficiente de médicos e ferramentas de agendamento. Desenvolvido em parceria com a UFPR College, atende às diversas necessidades da clínica.',
+      subtitle: 'Um aplicativo elegante para clínicas otimiza processos para clientes e administradores. Conecta clientes a médicos e oferece um sistema de recompensas. Os administradores se beneficiam da gestão eficiente de médicos e ferramentas de agendamento.',
       tecnologies: 'VueJS, NodeJS, Postgress',
       textOne: 'Dentro do âmbito do cuidado com a saúde mental, nosso sistema interno se destaca como um testemunho da inovação na promoção de uma conexão perfeita entre psiquiatras, seus clientes e administradores da clínica. Adaptado para uma clínica de psiquiatras, nossa plataforma é projetada com uma abordagem centrada no usuário, garantindo uma experiência abrangente e eficiente para todas as partes interessadas.',
       titleTwo: 'Recursos principais para clientes',
@@ -181,6 +181,18 @@ export const pt_BR = {
       titleFive: 'Perspectiva Global',
       textFive: 'Sendo o primeiro projeto internacional realizado durante meu tempo no Egito, este website reflete o compromisso em promover uma perspectiva global sobre os desafios relacionados ao clima. A plataforma transcende fronteiras geográficas, servindo como um testemunho da importância universal dos esforços colaborativos no enfrentamento das questões climáticas.',
       textSix: 'Essencialmente, este conceito de design de website serve como um gateway digital para pessoas que buscam compreender as complexidades da COP26. Através de uma interface informativa e visualmente atraente, aspira capacitar uma audiência diversificada a se envolver e compreender as discussões e decisões críticas que acontecem nesta conferência global significativa.',
+    },
+    project_carwash: {
+      title: 'Freelancer - Sistema de Lavagem de Carros',
+      subtitle: 'Sistema de Lavagem de Carros Freelance: Frontends Flutter & VueJS, backend NodeJS. Destina-se a mais de 5000 usuários/dia. Concluído em 2 meses. Design amigável para clientes e funcionários.',
+      tecnologies: 'VueJS,Flutter,NodeJS,PostgreSQL',
+      textOne: 'O Sistema de Lavagem de Carros representa um contrato Freelance bem-sucedido, exibindo uma aplicação dinâmica com três frontends principais e um backend robusto. Utilizando o poder do Flutter, VueJS, NodeJS e PostgreSQL, o projeto foi concluído em um prazo apertado de 2 meses. O design amigável, juntamente com a expectativa de mais de 5000 usuários diários, posiciona o Sistema de Lavagem de Carros como uma solução versátil e de alto desempenho na indústria de lavagem de carros.',
+      titleTwo: 'Principais Recursos',
+      textTwo: 'O Sistema de Lavagem de Carros é uma aplicação abrangente com três frontends distintos projetados para uma experiência de usuário perfeita. O aplicativo do cliente, o aplicativo do funcionário e o site do administrador formam coletivamente um sistema robusto projetado para otimizar as operações de lavagem de carros. Desenvolvido com tecnologias de ponta, como Flutter para o aplicativo do cliente, VueJS para o aplicativo do funcionário e um backend NodeJS integrado com PostgreSQL, o sistema garante desempenho e eficiência ideais.',
+      titleThree: 'Alcance do Público',
+      textThree: 'Atendendo a uma ampla audiência, o Sistema de Lavagem de Carros é acessível tanto para clientes quanto para funcionários. As interfaces intuitivas facilitam a interação com o aplicativo, seja para procurar uma lavagem de carros conveniente ou para gerenciar operações como funcionário. O design inclusivo garante usabilidade para todas as pessoas interessadas em utilizar o aplicativo.',
+      titleFour: 'Número Esperado',
+      textFour: 'Com uma base de usuários esperada de mais de 5000 indivíduos por dia, o Sistema de Lavagem de Carros está pronto para se tornar uma solução preferida para aqueles que buscam serviços de lavagem de carros eficientes e amigáveis ao usuário. A escalabilidade da aplicação está alinhada com a alta demanda esperada, garantindo uma experiência tranquila para os usuários, sejam clientes em busca de um serviço rápido ou funcionários gerenciando as operações de lavagem de carros.',
     },
   },
   contact: {

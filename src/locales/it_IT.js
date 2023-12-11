@@ -107,7 +107,7 @@ export const it_IT = {
     },
     project_psy: {
       title: 'Freelancer - Angimed',
-      subtitle: "Un'applicazione elegante per la clinica semplifica i processi per i clienti e gli amministratori. Connette i clienti con i medici, include la calibrazione del sensore e offre un sistema di ricompense. Gli amministratori beneficiano di una gestione efficiente dei medici e strumenti per gli appuntamenti. Sviluppato con la UFPR College, si rivolge a diverse esigenze della clinica.",
+      subtitle: "Un'applicazione elegante per la clinica semplifica i processi per i clienti e gli amministratori. Connette i clienti con i medici, e offre un sistema di ricompense. Gli amministratori beneficiano di una gestione efficiente dei medici e strumenti per gli appuntamenti.",
       tecnologies: 'VueJS, NodeJS, Postgress',
       textOne: "Nel campo della salute mentale, il nostro sistema interno è una testimonianza di innovazione nel favorire una connessione senza soluzione di continuità tra psichiatri, i loro clienti e gli amministratori della clinica. Progettata per una clinica psichiatrica, la nostra piattaforma è progettata con un approccio centrato sull'utente, garantendo un'esperienza completa ed efficiente per tutte le parti interessate.",
       titleTwo: 'Funzionalità chiave per i clienti',
@@ -177,6 +177,19 @@ export const it_IT = {
       textFive: "Essendo il primo progetto internazionale intrapreso durante il mio tempo in Egitto, questo sito web riflette un impegno nel favorire una prospettiva globale sulle sfide legate al clima. La piattaforma supera i confini geografici, fungendo da testimonianza dell'importanza universale degli sforzi collaborativi nel affrontare le questioni climatiche.",
       textSix: "In sostanza, questo concept di design del sito web funge da gateway digitale per coloro che cercano di comprendere le complessità della COP26. Attraverso un'interfaccia informativa e visivamente accattivante, aspira a fornire a un pubblico variegato gli strumenti per interagire e comprendere le discussioni e le decisioni cruciali che si svolgono in questa significativa conferenza globale.",
     },
+    project_carwash: {
+      title: 'Freelancer - Sistema Lavaggio Auto',
+      subtitle: 'Sistema Lavaggio Auto Freelance: Frontend Flutter & VueJS, backend NodeJS. Mirato a più di 5000 utenti/giorno. Completato in 2 mesi. Design user-friendly per clienti e dipendenti.',
+      tecnologies: 'HTML, CSS',
+      textOne: "Il Sistema Lavaggio Auto rappresenta un contratto Freelance di successo, mostrando un'applicazione dinamica con tre front-end principali e un robusto backend. Sfruttando la potenza di Flutter, VueJS, NodeJS e PostgreSQL, il progetto è stato completato in un breve arco di tempo di 2 mesi. Il design user-friendly, insieme alla prevista presenza giornaliera di oltre 5000 utenti, posiziona il Sistema Lavaggio Auto come una soluzione versatile e performante nell'industria del lavaggio auto.",
+      titleTwo: 'Caratteristiche Principali',
+      textTwo: "Il Sistema Lavaggio Auto è un'applicazione completa con tre front-end distinti progettati per un'esperienza utente senza intoppi. L'applicazione Cliente, l'applicazione Dipendente e il Sito Web dell'Amministratore formano collettivamente un sistema robusto progettato per ottimizzare le operazioni di lavaggio auto. Sviluppato con tecnologie all'avanguardia come Flutter per l'applicazione Cliente, VueJS per l'applicazione Dipendente e un backend NodeJS integrato con PostgreSQL, il sistema garantisce prestazioni ed efficienza ottimali.",
+      titleThree: 'Raggiungere il Pubblico',
+      textThree: "Indirizzato a un pubblico ampio, il Sistema Lavaggio Auto è accessibile sia per i clienti che per i dipendenti. Le interfacce intuitive facilitano l'interazione con l'applicazione, che si tratti di cercare un lavaggio auto conveniente o di gestire le operazioni come dipendente. Il design inclusivo assicura un'usabilità per tutte le persone interessate a utilizzare l'applicazione.",
+      titleFour: 'Numero Previsto',
+      textFour: "Con una prevista base di utenti di oltre 5000 individui al giorno, il Sistema Lavaggio Auto è destinato a diventare una soluzione di riferimento per coloro che cercano servizi di lavaggio auto efficienti e user-friendly. La scalabilità dell'applicazione è in linea con l'alta domanda prevista, garantendo un'esperienza fluida per gli utenti, che siano clienti in cerca di un servizio rapido o dipendenti che gestiscono le operazioni di lavaggio auto.",
+    },
+
   },
   contact: {
     title: "Se desideri metterti in contatto con me, sia per lo sviluppo di un'applicazione che per una semplice richiesta, puoi contattarmi secondo le opzioni sottostanti:",

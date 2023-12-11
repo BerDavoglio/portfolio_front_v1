@@ -107,7 +107,7 @@ export const en = {
     },
     project_psy: {
       title: 'Freelancer - Angimed',
-      subtitle: 'A sleek clinic app streamlines processes for clients and administrators. It connects clients with doctors, includes sensor calibration, and offers a rewards system. Administrators benefit from efficient doctor management and appointment tools. Developed with UFPR College, it caters to diverse clinic needs.',
+      subtitle: 'A sleek clinic app streamlines processes for clients and administrators. It connects clients with doctors and offers a rewards system. Administrators benefit from efficient doctor management and appointment tools.',
       tecnologies: 'VueJS,NodeJS,Postgress',
       textOne: 'Within the realm of mental health care, our internal system stands as a testament to innovation in fostering a seamless connection between psychiatrists, their clients, and clinic administrators. Tailored for a psychiatrist clinic, our platform is designed with a user-centric approach, ensuring a comprehensive and efficient experience for all stakeholders.',
       titleTwo: 'Key Features for clients',
@@ -176,6 +176,18 @@ export const en = {
       titleFive: 'Global Perspective',
       textFive: 'Being the first international project undertaken during my time in Egypt, this website reflects a commitment to fostering a global perspective on climate-related challenges. The platform transcends geographical boundaries, serving as a testament to the universal importance of collaborative efforts in addressing climate issues.',
       textSix: 'In essence, this website design concept serves as a digital gateway for individuals seeking to comprehend the intricacies of COP26. Through an informative and visually appealing interface, it aspires to empower a diverse audience to engage with and understand the critical discussions and decisions unfolding at this significant global conference.',
+    },
+    project_carwash: {
+      title: 'Freelancer - Car Wash System',
+      subtitle: 'Freelance Car Wash System: Flutter & VueJS frontends, NodeJS backend. Targets 5000+ users/day. Completed in 2 months. User-friendly design for clients and employees.',
+      tecnologies: 'VueJS,Flutter,NodeJS,PostgreSQL',
+      textOne: 'The Car Wash System represents a successful Freelance contract, showcasing a dynamic application encompassing three main frontends and a robust backend. Leveraging the power of Flutter, VueJS, NodeJS, and PostgreSQL, the project was completed within a tight timeline of 2 months. The user-friendly design, coupled with the anticipated daily user count of 5000+, positions the Car Wash System as a versatile and high-performing solution in the car wash industry.',
+      titleTwo: 'Key Features',
+      textTwo: 'The Car Wash System is a comprehensive application featuring three distinct frontends tailored for a seamless user experience. The Client App, Employee App, and Admin Website collectively form a robust system designed to streamline car wash operations. Developed with cutting-edge technologies such as Flutter for the Client App, VueJS for the Employee App, and a NodeJS backend integrated with PostgreSQL, the system ensures optimal performance and efficiency.',
+      titleThree: 'Target Reach',
+      textThree: 'Catering to a broad audience, the Car Wash System is accessible to both clients and employees. The intuitive interfaces make it easy for anyone to engage with the application, whether seeking a convenient car wash or managing operations as an employee. The inclusive design ensures usability for all individuals interested in utilizing the application.',
+      titleFour: 'Expected Number',
+      textFour: 'With an anticipated user base of 5000+ individuals per day, the Car Wash System is poised to become a go-to solution for those seeking efficient and user-friendly car wash services. The scalability of the application aligns with the high demand expected, ensuring a smooth experience for users, whether they are clients looking for a quick service or employees managing the car wash operations.',
     },
   },
   contact: {
