@@ -15,7 +15,7 @@
                alt=""
                :className="['object-contain cursor-pointer m-auto mt-2 rounded-3xl '
                  + (this.isApp ?
-                   (this.windowWidth > 768 ? 'h-[35rem] w-[60rem]' : 'w-[90%]')
+                   (this.windowWidth > 768 ? 'h-[35rem] w-[60rem]' : 'h-[35rem]')
                    : 'w-[90%]')]">
         </Slide>
         <template #addons>
