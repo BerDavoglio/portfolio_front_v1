@@ -3,7 +3,9 @@
   <div>
     <div :className="['m-auto my-10 '
       + (this.isApp ? 'h-[35rem] w-[60rem]' : 'w-[100%]')]">
-      <Carousel :itemsToShow="this.isApp ? 2.75 : 1.75"
+      <Carousel :itemsToShow="this.isApp
+        ? (this.windowWidth > 768 ? 2.75 : 1)
+        : 1.75"
                 :wrapAround="true"
                 :transition="1000"
                 :autoplay="3000">
@@ -12,11 +14,12 @@
           <img :src="[urlLocation.split('portfolio_front_v1')[0] + 'portfolio_front_v1/' + image]"
                alt=""
                :className="['object-contain cursor-pointer m-auto mt-2 rounded-3xl '
-                 + (this.isApp ? 'h-[35rem] w-[60rem]' : 'w-[100%]')]">
+                 + (this.isApp ?
+                   (this.windowWidth > 768 ? 'h-[35rem] w-[60rem]' : 'w-[90%]')
+                   : 'w-[90%]')]">
         </Slide>
         <template #addons>
           <Navigation />
-          <Pagination />
         </template>
       </Carousel>
     </div>
@@ -44,7 +47,7 @@
       <div v-for="i in this.obj.link"
            v-bind:key="i">
         <div className="text-justify px-2
-          m-auto max-w-[60rem]
+          m-auto max-w-[60rem] break-words
           underline hover:text-blue-500
           cursor-pointer"
              @click="goToProject(i)">
@@ -57,7 +60,7 @@
 
 <script>
 import {
-  Carousel, Navigation, Pagination, Slide,
+  Carousel, Navigation, Slide,
 } from 'vue3-carousel';
 import 'vue3-carousel/dist/carousel.css';
 
@@ -69,7 +72,6 @@ export default {
   components: {
     Carousel,
     Slide,
-    Pagination,
     Navigation,
   },
   data() {
@@ -77,11 +79,18 @@ export default {
       images: [],
       urlLocation: '',
       isApp: false,
+      windowWidth: window.innerWidth,
     };
   },
   methods: {
     goToProject(linkUtilizado) {
       window.open(linkUtilizado, '_blank');
+    },
+    onResize() {
+      this.windowWidth = window.innerWidth;
+    },
+    setLocale(locale) {
+      this.$i18n.locale = locale;
     },
   },
   beforeMount() {
@@ -90,6 +99,14 @@ export default {
       this.images.push(obj);
     });
     this.isApp = this.obj.isCell;
+  },
+  mounted() {
+    this.$nextTick(() => {
+      window.addEventListener('resize', this.onResize);
+    });
+  },
+  beforeUnmount() {
+    window.removeEventListener('resize', this.onResize);
   },
 };
 </script>
